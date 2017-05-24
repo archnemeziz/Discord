@@ -15,7 +15,7 @@
     background: transparent !important;
 }
 /*sig*/
-.account:after {content: "Melliflous Blue by Arch"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; width: 110px; left: 120px; }
+.account:after {content: "Elegant Blue by Arch"; color: rgba(255,255,255,0.2); font-size: 11px; font-weight: bold; position: absolute; bottom: 0; width: 110px; left: 120px; }
 
 /*Base from other themes, modified by Arch*/
 #user-profile-modal .header { background: transparent !important; overflow: hidden; height: 176px !important; }
@@ -2996,15 +2996,14 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     min-width: 360px;
 }
 .ui-standard-sidebar-view .bda-slist li:nth-child(1n) {
-    display: block;
+    display: flex;
 }
 .bda-slist .bda-left {
     width: 100%;
 }
 .bda-slist .bda-right {
     display: flex;
-    align-items: center;
-	float: left;
+	transform: translateY(-2px);
 }
 .bda-slist .bda-description {
     color: #D2D2D2 !important;
@@ -3015,10 +3014,17 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 .bda-right .ui-switch-wrapper {
     margin: 2px 3px;
+    order: 1;
+    height: 100%;
+}
+.bda-right .ui-switch:before {
+    height: 96%;
 }
 .ui-standard-sidebar-view .bda-slist .bda-right button {
     background: var(--main-color);
 	transition: 0.15s linear;
+    margin: 2px;
+    height: 100%;
 }
 .ui-standard-sidebar-view .bda-slist .bda-right button:hover {
     background: var(--hover-color);
