@@ -1,0 +1,14 @@
+//META{"name":"Elegant Blue","description":"Relaxing blue theme with some customisability(background and main colors customisable, color changing still WIP). Inspired by theme devs Omniscient and Hammock. Friends list by Uri. A big thanks to the people on BetterDiscord server who gave ideas and solutions.","author":"Arch","version":"1.0"}*//{}
+
+/* IMPORT CSS */
+@import url(https://rawgit.com/);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE TO DARK APPEARANCE IN DISCORD SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+/* SET OPTIONS */
+:root { 
+ --main-color: #057F95;
+ --hover-color: #045B6B;
+ --background-img: url("https://i.imgur.com/Mu4SNn6.jpg");
+}
