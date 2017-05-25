@@ -1,0 +1,119 @@
+//META{"name":"SelectorEffects","description":"Adds glow and animated select server effect","author":"Arch","version":"1.0"}*//{}
+
+/*Server selector effects by Arch. Changes guilds size so if you want to apply it to your own theme keep that in mind. (130372850757402625 cause I change names too much atm u.u)*/
+
+:root { 
+ --main-color: rgb(5,127,149);
+}
+@keyframes guildselect { 
+    0%	{
+		margin-top: 0;
+    	border-top-width: 0;
+    	border-bottom-width: 0;
+    }
+    50%	{ 
+        margin-top: -18px;
+    	border-top-width: 18px;
+    	border-bottom-width: 18px;
+    }
+  	100%{ 
+        margin-top: -8px;
+    	border-top-width: 8px;
+    	border-bottom-width: 8px;
+    } 
+}
+/*GUILDS SIZE*/
+.guilds-wrapper .guilds .guild,
+.guilds-wrapper .guilds .guild .guild-inner a,
+.guilds-wrapper .guilds .friends-icon,
+.guilds-error {
+    background-size: 40px ;
+    width: 40px;
+    height: 40px;
+}
+.guilds-wrapper .guilds {
+    padding: 10px 0 0 15px;
+}
+.guilds-wrapper .guilds .friends-icon {
+    background-size: 25px;
+}
+.guilds-wrapper .guilds .friends-online { 
+    margin: 10px -5px;
+}
+.guilds-wrapper .guild-separator:after {
+    left: 0%;
+}
+.guilds-error {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 37px !important;
+}
+.guilds-wrapper .guilds-add {
+    text-indent: -1px;
+    line-height: 0 !important;
+    margin-bottom: 10px;
+}
+/*SELECTOR EFFECTS*/
+.guilds-wrapper .guilds .guild.selected:before {
+    height: 0px !important;
+    width: 38px !important;
+    border: 8px solid var(--main-color);
+    border-left-width: 25px;
+    border-right-width: 25px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    background: rgba(35, 159, 165, 0) !important;
+	animation: guildselect 0.4s;
+    left: -24px !important;
+    margin-top: -8px !important;
+    transition: height 0.2s ease-in-out;
+}
+.guilds-wrapper .guilds .guild.unread:before {
+    height: 1px;
+    left: 19px;
+	background: none;
+}
+.guilds-wrapper .guilds .guild.selected:after {
+    box-shadow: 30px 0px 25px 7px var(--main-color), -30px 0px 25px 7px var(--main-color);
+    content: " ";
+    height: 1px !important;
+    position: absolute;
+    transition: all 0.2s ease-in-out;
+    width: 1px !important;
+    top: 20px !important;
+    margin-top: 0 !important;
+    background: none !important;
+    left: 20px !important;
+	border: none !important;
+}
+.guilds-wrapper .guilds .guild.unread:after {
+    left: -16px;
+    content: " ";
+    height: 25px;
+    position: absolute;
+    border: 5px solid var(--main-color);
+    border-top-color: transparent;
+	border-right-color:transparent;
+    border-bottom-color: transparent;
+    width: 62px;
+	z-index: -1;
+    border-radius: 6px;
+    top: 3px;
+    transition: 0.2s border-left ease;
+}
+.guild.selected {
+    box-shadow: none !important;
+}
+.tooltip.tooltip-right.tooltip-normal[style*="left: 55px"] {
+    left: 66px !important;
+}
+.guilds-wrapper .guilds .guild:hover {
+    box-shadow: -19px 0px 17px -7px var(--main-color), 19px 0px 17px -7px var(--main-color);
+}
+.guild#bd-pub-li:hover {
+    box-shadow: -25px 0px 15px -5px var(--main-color), 25px 0px 15px -5px var(--main-color);
+}
+.guilds-wrapper .guilds .guild {
+    transition: 0.25s ease box-shadow;
+    border-radius: 25px !important;
+}
