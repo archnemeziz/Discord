@@ -27,10 +27,10 @@
 .guilds-wrapper .guilds .guild .guild-inner a,
 .guilds-wrapper .guilds .friends-icon,
 .guilds-error {
+	line-height: 40px;
     background-size: 40px ;
     width: 40px;
     height: 40px;
-	line-height: 40px;
 }
 .guilds-wrapper .guilds {
     padding: 10px 0 0 15px;
@@ -88,19 +88,15 @@
 	border: none !important;
 }
 .guilds-wrapper .guilds .guild.unread:after {
-    left: -16px;
+    left: -21px;
     content: " ";
-    height: 25px;
+    height: 30px;
     position: absolute;
-    border: 5px solid var(--main-color);
-    border-top-color: transparent;
-	border-right-color:transparent;
-    border-bottom-color: transparent;
-    width: 62px;
-	z-index: -1;
-    border-radius: 6px;
-    top: 3px;
-    transition: 0.2s border-left ease;
+    background-color: var(--main-color);
+    width: 10px;
+    border-radius: 3px;
+    top: 5px;
+    transition: 0.2s width ease;
 }
 .guild.selected {
     box-shadow: none !important;
