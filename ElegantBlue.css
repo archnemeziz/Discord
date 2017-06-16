@@ -3472,3 +3472,17 @@ span#bd-status:before {
     background-color: rgba(0, 246, 255, 0.4) !important;
     border-color: var(--main-color) !important;
 }
+/*BD settings fix by Maple*/
+#bd-settingspane-container h3 {flex:1 1 auto;line-height:24px;margin:0 10px 0 0;font-weight:500}
+#bd-settingspane-container .default > .ui-flex div+div {font-size:14px;color:hsla(218,5%,47%,.6);font-weight:500;margin-top:4px;line-height:20px}
+#bd-settingspane-container .scroller div > .h2 {font-size:16px;font-weight:600;color:#4f545c;text-transform:uppercase;}
+.theme-dark #bd-settingspane-container h3,.theme-dark #bd-settingspane-container .scroller div > h2{color:#f6f6f7}
+.theme-dark #bd-settingspane-container .default > .ui-flex div+div {color:#72767d}
+
+.bd-server-card.bd-server-card-pinned:after {position:relative;}
+#pubslayer .content-column > .h2 {font-size:16px;font-weight:600;color:#f6f6f7;text-transform:uppercase;}
+#pubslayer .ui-flex.horizontal {display:flex}
+#pubslayer .ui-flex.horizontal[style^=display] {background-color:rgba(0,0,0,.3);border-radius:3px;border:1px solid rgba(0,0,0,.3);}
+#pubslayer .h5 {color:#d1d1d1;font-weight:500}
+#pubslayer .ui-form-item + .ui-form-item .h5 {color:#5d5d60;font-weight:500;font-size:14px}
+#pubslayer button {background: #7289da;color: #FFF;border-radius:3px;width:60px;}
