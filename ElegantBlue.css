@@ -2420,22 +2420,24 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }*/
 /*-----------new sliders-----------*/
 .ui-switch {
-	background: rgba(41, 54, 76, 0.5);
-    border-radius: 0 10px 10px 0;
-    border: 1px solid rgba(0, 255, 255, 0.25);
+	background: rgba(41, 54, 76, 0.5) !important;
+    border-radius: 0 10px 10px 0 !important;
+    border: 1px solid rgba(0, 255, 255, 0.25) !important;
 }
 .ui-switch-checkbox:checked+.ui-switch {
 	background: rgba(0, 126, 134, 0.4) !important;
 	border: 1px solid rgba(0, 243, 255, 0.5) !important;
 }
 .ui-switch:before {
-    top: 2px;
-    left: 2px;
-	background: rgba(0, 194, 255, 0.45);
-    border-radius: 0 8px 8px 0;
+    top: 2px !important;
+    left: 2px !important;
+	background: rgba(0, 194, 255, 0.45) !important;
+    border-radius: 0 !important;
 }
 .ui-switch-wrapper .ui-switch-checkbox:checked+.ui-switch:before {
-    background-color: rgba(0, 243, 255, 0.7);
+    background-color: rgba(0, 243, 255, 0.7) !important;
+	border-radius: 0 8px 8px 0 !important;
+	transform: translateX(16px);
 }
 .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
     background-color: rgba(0, 241, 255, 0.5) !important;
@@ -2457,6 +2459,25 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 .ui-switch-wrapper .ui-switch-checkbox:not(:checked)+.ui-switch:before {
     border-radius: 0;
+}
+/*BD plugins themes slide fix*/
+.bda-right .ui-switch {
+    height: 116px;
+	cursor: pointer;
+    width: 40px;
+    transform: translateY(-19px);
+	transition: all 0.25s ease;
+}
+.bda-right input.ui-switch-checkbox {
+    opacity: 0;
+}
+.bda-right .ui-switch:before {
+    content: "";
+    width: 18px;
+	height: 96.5%;
+    position: absolute;
+    left: 2px;
+	transition: all 0.25s ease;
 }
 /*-------------------------------
 ---------END CHECKBOXES----------
@@ -3033,9 +3054,6 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     margin: -4px -6px;
     height: 116px;
     order: 1;
-}
-.bda-right .ui-switch:before {
-    height: 96.5%;
 }
 .ui-standard-sidebar-view .bda-slist .bda-right button {
     background: var(--main-color);
