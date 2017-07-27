@@ -693,7 +693,7 @@ textarea { background: transparent !important; }
 
 .form .btn-default { background-color: var(--main-color) !important; color: white !important; padding: 10px 20px; border-radius: 3px; border-bottom: none; }
 
-.form .btn-primary { background-color: var(--main-color); }
+.form .btn-primary { background-color: var(--main-color) !important; }
 
 .create-guild-container .action.create .action-header { color: var(--main-color); }
 
@@ -731,7 +731,7 @@ a:link { color: var(--main-color); }
 
 .slider-handle { border: 1px solid var(--main-color); }
 
-.radio .radio-inner { background: rgba(0, 0, 0, 0.64); border: 2px solid var(--main-color); }
+.radio .radio-inner { background: rgba(0, 0, 0, 0.64) !important; border: 2px solid var(--main-color) !important; }
 
 #user-profile-modal .tab-bar.TOP { position: absolute; margin-top: -28px; }
 
@@ -1655,7 +1655,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .private-channel-call .private-channel-call-actions { margin: -10px 0 5px 0; }
 
-.ui-quick-select-popout { background-color: rgba(7,135,158,0.95); color: #882323; border-radius: 7px; }
+.ui-quick-select-popout { background-color: rgba(7,135,158,0.95) !important; color: #882323; border-radius: 7px; }
 
 .ui-quick-select-popout-option.selected { background-color: rgba(0, 28, 167, 0.28); cursor: not-allowed; }
 
@@ -2382,7 +2382,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     height: 13px; 
     width: 30px; 
     border-radius: 0;
-    border: 1px solid var(--hover-color); 
+    border: 1px solid var(--hover-color) !important; 
 }
 /*Text distance from box*/ 
 .checkbox .checkbox-inner + span { 
@@ -3260,7 +3260,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 /*add friends to dm*/
 .popout.popout-bottom-right {
-	margin: 0px; box-shadow: none; border: 2px solid rgb(4, 100, 154); border-radius: 5px;
+	margin: 0px; box-shadow: none; border: 2px solid rgb(4, 100, 154); border-radius: 10px;
 }
 /*inverted role add popout on profile card*/
 .popout.popout-invert:not(.popout-bottom).popout-top, .popout.popout-invert:not(.popout-bottom).popout-top-right {
@@ -3493,4 +3493,32 @@ span#bd-status:before {
 }
 .theme-dark .inner-3if5cm {
     background-color: rgba(0, 211, 255, 0.1);
+}
+/*region choice in priv voice*/
+.ui-quick-select {
+    cursor: pointer;
+}
+/*priv voice bg height*/
+.ui-video-height.minimum {
+    height: 57px;
+}
+/*priv voice bg color*/
+.ui-video-inner {
+    background: linear-gradient(black, rgba(0, 11, 16, 0.95), rgba(0, 61, 78, 0.95));
+}
+/*radio buttons in server notification settings*/
+.theme-light .radio .radio-inner span:after {
+    background-color: var(--main-color);
+}
+/*server settings user highlight on hover fix*/
+.guild-settings-members-member {
+    contain: inherit;
+}
+/*create new channel background/changelog*/
+.theme-dark .modal-3HOjGZ {
+    background-color: rgba(0, 95, 138, 0.95);
+}
+/*default settings color*/
+.itemDefaultSelected-1UAWLe, #bd-settings-sidebar .ui-tab-bar-item.selected, .itemBrandSelected-3LxxzT, .barFill-18ABna {
+    background-color: var(--hover-color);
 }
