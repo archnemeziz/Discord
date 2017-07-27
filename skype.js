@@ -229,8 +229,6 @@ function applyEmoticons()
 		cnt += applyEmoticon(emojiList[i][0], emojiList[i][1]);
 	}
 	
-	pushHuan();
-	
 	return cnt;
 }
 
