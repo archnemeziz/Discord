@@ -69,8 +69,6 @@ var emojiList = [
 
 var dir = process.env.APPDATA + "\\BetterDiscord\\plugins\\";
 
-};
-
 // Definitions end
 
 // Logging start
