@@ -66,9 +66,6 @@ var emojiList = [
 //		["", ""]
 	];
 	
-
-var dir = process.env.APPDATA + "\\BetterDiscord\\plugins\\";
-
 // Definitions end
 
 // Logging start
@@ -78,33 +75,6 @@ function writeLogLine(text, tag)
 	console.log(line);
 }
 // Logging end
-
-// Cookie management start
-function createCookie(name,value,days) {
-    if (days) {
-        var date = new Date();
-        date.setTime(date.getTime()+(days*24*60*60*1000));
-        var expires = "; expires="+date.toGMTString();
-    }
-    else var expires = "";
-    document.cookie = name+"="+value+expires+"; path=/";
-}
-
-function readCookie(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0;i < ca.length;i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1,c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-    }
-    return null;
-}
-
-function eraseCookie(name) {
-    createCookie(name,"",-1);
-}
-// Cookie management end
 
 function loadScript(url, callback)
 {
@@ -121,17 +91,6 @@ function loadScript(url, callback)
 
     // Fire the loading
     head.appendChild(script);
-}
-
-function GetCurrentServerID() {
-	var ID = 0
-
-	$(".guild.selected .avatar-small").each(function() {
-		var server = $(this)
-		ID = parseInt(server.attr("href").match(/\/(\d+)\//)[1])
-	})
-
-	return ID
 }
 
 
@@ -241,16 +200,12 @@ function main()
 	window.setInterval(function(){
 			applyEmoticons();
 		}, 1000);
-	
-	replaceAllAvatars();
-	
 }
 
 esIntegration.prototype.onSwitch = function() {
 	var rtn = applyEmoticons();
 }
 esIntegration.prototype.load = function() {}
-
 
 esIntegration.prototype.observer = function () {}
 
