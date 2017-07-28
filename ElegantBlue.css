@@ -173,7 +173,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small { background-colo
 
 .popout header { background-color: var(--main-color); }
 
-.popout section { background-color: rgba(0, 0, 0, 0.7); }
+.popout section { background-color: rgba(0, 0, 0, 0.7); border-radius: 0 0 20px 20px; }
 
 #rtc-connection-popout hr { border: 1px solid var(--main-color); }
 
@@ -3518,6 +3518,7 @@ span#bd-status:before {
 /*priv voice bg color*/
 .ui-video-inner {
     background: linear-gradient(black, rgba(0, 11, 16, 0.95), rgba(0, 61, 78, 0.95));
+	z-index: 2;
 }
 /*radio buttons in server notification settings*/
 .theme-light .radio .radio-inner span:after {
