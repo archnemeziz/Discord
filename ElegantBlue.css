@@ -1661,7 +1661,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .theme-dark .ui-quick-select-label { opacity: 0.7; color: white; padding-left: 3px; }
 
-.private-channel-call .private-channel-call-actions { margin: -10px 0 5px 0; }
+.private-channel-call .private-channel-call-actions { margin: -10px 0 0 0; }
 
 .ui-quick-select-popout { background-color: rgba(7,135,158,0.95) !important; color: #882323; border-radius: 7px; }
 
@@ -2323,8 +2323,8 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     color: var(--main-color);
 }
 /*----------NSFW channel warning background----------*/
-.justifyCenter-29N31w {
-    background-color: rgba(0, 0, 0, 0.5);
+.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyCenter-29N31w.alignCenter-3VxkQP.noWrap-v6g9vO.nsfw-1APjPl {
+    background-color: rgba(0, 0, 0, 0.75);
 } 
 .nsfw-1APjPl {
     max-width: 100%;
