@@ -3566,8 +3566,7 @@ span#bd-status:before {
 /*override default popout menu style placement*/
 .popout.popout-top {
     left: 0 !important;
-    top: 0 !important;
-    margin-top: 940px;
+    margin-top: 41px;
     margin-left: 80px;
     border-bottom-left-radius: 20px;
     transform: translateY(-100%) translateX(0) translateZ(0)!important;
