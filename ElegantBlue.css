@@ -3511,10 +3511,6 @@ span#bd-status:before {
 .ui-quick-select {
     cursor: pointer;
 }
-/*priv voice bg height*/
-.ui-video-height.minimum {
-    height: 57px;
-}
 /*priv voice bg color*/
 .ui-video-inner {
     background: linear-gradient(black, rgba(0, 11, 16, 0.95), rgba(0, 61, 78, 0.95));
