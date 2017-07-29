@@ -3572,9 +3572,13 @@ span#bd-status:before {
     border-top-right-radius: 5px;
     border: 1px solid rgba(0, 176, 255, 0.6);
 }
+/*popout z-index*/
+.popout {
+    z-index: 999;
+}
 /*avatar z-index*/
 .container-iksrDt .avatar-small {
-    z-index: 1001;
+    z-index: 1000;
 }
 /*-------------------------------
 -------end status picker---------
