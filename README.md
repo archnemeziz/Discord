@@ -11,6 +11,6 @@
 #search
 ![search](https://github.com/archnemeziz/Discord/raw/master/EB%20previews/Discord_2017-07-29_13-49-34.png)
 #server notifications
-![server notifications](https://github.com/archnemeziz/Discord/raw/master/EB%20previews/Discord_2017-07-29_13-50-06.png)
+![server notifications](https://github.com/archnemeziz/Discord/raw/master/EB%20previews/Discord_2017-07-29_14-17-57.png)
 #emotes
 ![emotes](https://github.com/archnemeziz/Discord/raw/master/EB%20previews/Discord_2017-07-29_13-58-02.png)
