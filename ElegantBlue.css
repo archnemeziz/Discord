@@ -3605,3 +3605,10 @@ span#bd-status:before {
 .noWrap-v6g9vO.ui-selectable-item.selected {
     background-color: var(--main-color) !important;
 }
+/*emoji autocomplete bg*/
+.theme-dark .autocomplete-1TnWNR {
+    background: linear-gradient(rgba(0,54,74,0.95), rgba(0, 26, 31, 0.9));
+}
+.theme-dark .selectorSelected-2M0IGv {
+    background-color: rgba(0, 0, 0, 0.5);
+}
