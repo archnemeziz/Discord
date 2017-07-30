@@ -10,5 +10,7 @@ IMPORTANT: CHANGE TO DARK APPEARANCE IN DISCORD SETTINGS!
 :root { 
  --main-color: #057F95;
  --hover-color: #045B6B;
- --background-img: url("https://i.imgur.com/Mu4SNn6.jpg");
+}
+.app, canvas, .callout-backdrop {
+	background-image: url("https://i.imgur.com/Mu4SNn6.jpg") !important;
 }

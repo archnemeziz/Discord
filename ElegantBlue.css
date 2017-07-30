@@ -3,7 +3,6 @@
 :root { 
  --main-color: #057F95;
  --hover-color: #045B6B;
- --background-img: url("https://i.imgur.com/Mu4SNn6.jpg");
 }
 /*default discord background color*/
 *[style*="background-color: rgb(114, 137, 218)"] {
@@ -15,7 +14,7 @@
 }
 /*set background*/
 .app, canvas, .callout-backdrop {
-	background-image: var(--background-img) !important;
+	background-image: url("https://i.imgur.com/Mu4SNn6.jpg") !important;
 	background-size: cover;
 }
 /*this property covers the background-image, unless transparent*/
@@ -2354,13 +2353,13 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 /*-------------------------------
 -----------CHECKBOXES------------
 -------------------------------*/
-/*Old deprecated sliders*/
-/*alternate slider(old games menu-overlay of active game) container*/
+/*Old deprecated toggles*/
+/*alternate toggle(old games menu-overlay of active game) container*/
 .checkbox .checkbox-inner.alt input[type=checkbox] + span { 
     background: rgba(0,20,40,1) !important;
     border: 1px solid var(--hover-color) !important;
 }
-/*alternate activated slider*/
+/*alternate activated toggle*/
 .checkbox .checkbox-inner.alt input[type=checkbox]:checked + span:after { 
     border: 1px solid var(--main-color);
 }
@@ -2368,7 +2367,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .checkbox .checkbox-inner + span { 
     color: #fff; 
 }
-/*Activated slider*/
+/*Activated toggle*/
 .checkbox .checkbox-inner input[type=checkbox]:checked + span:after { 
     background: rgba(5, 127, 149, 1); 
     top: 2px; 
@@ -2399,7 +2398,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .checkbox .checkbox-inner + span { 
     margin-left: 20px; 
 }
-/*Slider*/
+/*toggle*/
 .checkbox .checkbox-inner span:after{
     content: "";
     position: absolute;
@@ -2416,7 +2415,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .context-menu .item-toggle { 
     padding: 5px 20px 5px 9px; 
 }
-/*-----------new sliders-----------*/
+/*-----------new toggles-----------*/
 .switch-3lyafC {
 	background: rgba(41, 54, 76, 0.5) !important;
     border-radius: 0 10px 10px 0 !important;
@@ -2443,7 +2442,11 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .switchWrapperDefaultActive-2IdHq2:hover .switch-3lyafC {
     background-color: rgba(0, 241, 255, 0.3) !important;
 }
-/*BD sliders*/
+/*was visible on Connections settings*/
+.switchWrapperClear-Sor3Om .switch-3lyafC {
+    box-shadow: none;
+}
+/*BD toggles*/
 .ui-switch {
 	background: rgba(41, 54, 76, 0.5) !important;
     border-radius: 0 10px 10px 0 !important;
@@ -2470,7 +2473,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox+.ui-switch {
     background-color: rgba(0, 241, 255, 0.3) !important;
 }
-/*themes/plugins larger slider*/
+/*themes/plugins larger toggle*/
 .bda-right .ui-switch {
     height: 116px;
 	cursor: pointer;
@@ -2966,7 +2969,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .ui-card-warning {
     background: rgba(250, 166, 26, 0.6);
 }
-/*sliders*/
+/*toggles*/
 .theme-dark .ui-slider .slider-bar {
     background: rgba(0, 0, 0, 0.5);
 }
