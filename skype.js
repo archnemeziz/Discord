@@ -126,7 +126,7 @@ function loadTheme()
 		link.id   = cssId;
 		link.rel  = 'stylesheet';
 		link.type = 'text/css';
-		link.href = 'https://rawgit.com/Aesir123/Theme/master/theme.css';
+		link.href = 'https://rawgit.com/archnemeziz/Discord/master/ElegantBlue.mini.css';
 		link.media = 'all';
 		head.insertBefore(link, customCss);
 		
