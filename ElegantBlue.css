@@ -3639,3 +3639,10 @@ span#bd-status:before {
 .theme-dark .selectorSelected-2M0IGv {
     background-color: rgba(0, 0, 0, 0.5);
 }
+/*delete message*/
+.theme-dark .message-25xg43 {
+    background-color: rgba(54, 57, 63, 0.3);
+}
+.theme-dark .footer-1PYmcw {
+    background-color: rgba(47, 49, 54, 0.3);
+}
