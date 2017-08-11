@@ -1,0 +1,54 @@
+.status-online, .status-offline, .status-idle, .status-dnd {
+    background-color: transparent;
+    border: none !important;
+}
+.status.status-online:after, .status.status-offline:after, .status.status-idle:after, .status.status-dnd:after {
+	line-height: 12px;
+	font-size: xx-small;
+	width: 15px;
+	position: absolute;
+	color: #ffffff;
+}
+.status.status-online:after {
+    content: "ON";
+    padding-left: 1px;
+    font-weight: 700;
+    background: #003800;
+    border: 1px solid #008800;
+    border-radius: 10px;
+    left: -1px;
+    top: -2px;
+}
+.status.status-offline:after {
+    content: "OFF";
+    padding-left: 1px;
+    padding-right: 2px;
+    font-weight: 700;
+    background: #383838;
+    border: 1px solid black;
+    border-radius: 10px;
+    left: -3px;
+    top: -2px;
+}
+.status.status-idle:after {
+    content: "AWAY";
+    padding-left: 1px;
+    padding-right: 14px;
+    font-weight: 500;
+    background: #755d01;
+    border: 1px solid #ffca00;
+    border-radius: 10px;
+    left: -14px;
+    top: -2px;
+}
+.status.status-dnd:after {
+    content: "BUSY";
+    padding-left: 2px;
+    padding-right: 8px;
+    font-weight: 500;
+    background: #710000;
+    border: 1px solid red;
+    border-radius: 10px;
+    left: -10px;
+    top: -2px;
+}
