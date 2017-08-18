@@ -3538,11 +3538,6 @@ span#bd-status:before {
 .ui-quick-select {
     cursor: pointer;
 }
-/*priv voice bg color*/
-.ui-video-inner {
-    background: linear-gradient(black, rgba(0, 11, 16, 0.95), rgba(0, 61, 78, 0.95));
-	z-index: 2;
-}
 /*radio buttons in server notification settings*/
 .theme-light .radio .radio-inner span:after {
     background-color: var(--main-color);
@@ -3645,4 +3640,11 @@ span#bd-status:before {
 }
 .theme-dark .footer-1PYmcw {
     background-color: rgba(47, 49, 54, 0.3);
+}
+/*screen share background*/
+.theme-dark .chat .private-channel-call {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.ui-video-height.minimum, .ui-video-height.normal {
+    background: linear-gradient(black, rgba(0, 11, 16, 0.95), rgba(0, 61, 78, 0.95));
 }
