@@ -574,7 +574,7 @@ textarea { background: transparent !important; }
 
 .emotewrapper { vertical-align: -0.6em; }
 
-.message-group.compact .message { margin: 2px 0; }
+.message-group.compact .message { margin: 2px; }
 
 .message-group.compact .message .markup .user-name { margin-right: 10px; }
 
@@ -1548,13 +1548,13 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .invite-button:hover { border-color: #057f95 !important; }
 
-@-webkit-keyframes mentionpulse { 0% { box-shadow: 0 0 0 0 rgba(250, 166, 26, 0.23); }
-  70% { box-shadow: 0 0 5px 5px rgba(241, 71, 71, 0); }
-  to { box-shadow: 0 0 0 0 rgba(241, 71, 71, 0); } }
+@-webkit-keyframes mentionpulse { 0% { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0.4); }
+  70% { box-shadow: 0 0 5px 5px rgba(26, 178, 250, 0); }
+  to { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0); } }
 
-@keyframes mentionpulse { 0% { box-shadow: 0 0 0 0 rgba(250, 166, 26, 0.23); }
-  70% { box-shadow: 0 0 5px 5px rgba(241, 71, 71, 0); }
-  to { box-shadow: 0 0 0 0 rgba(241, 71, 71, 0); } }
+@keyframes mentionpulse { 0% { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0.4); }
+  70% { box-shadow: 0 0 5px 5px rgba(26, 178, 250, 0); }
+  to { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0); } }
 
 .message-group .mentioned .message-text { -webkit-animation: mentionpulse 2s infinite; animation: mentionpulse 2s infinite; }
 
@@ -1590,7 +1590,11 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .theme-dark .message-group .comment .markup pre { background: transparent; }
 
-.theme-dark .message-group .mentioned .message-text { border-radius: 5px; }
+.theme-dark .message-group .mentioned .message-text { border-left: 3px solid #00adff; border-radius: 5px; background: rgba(26, 178, 250, 0.15); }
+
+.message-group.compact .message { margin: 2px; }
+
+.message-group .mentioned .message-text:after { display: none; }
 
 .theme-dark .channel-pins-wrap .channel-pins .message-group:hover .action-buttons { box-shadow: 0 0 6px 4px transparent !important; background-color: transparent !important; }
 
@@ -2857,6 +2861,10 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .emoji-picker .premium-promo .btn:hover {
     background-color: var(--hover-color);
 }
+/*emoji search placeholder*/
+.search-bar.search-bar-light input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
 /*prevent going off screen if opened too low*/
 .popout #bda-qem, .popout #bda-qem-twitch-container, .popout #bda-qem-favourite-container, .popout .emoji-picker {
     transform: translateY(-20px);
@@ -3480,13 +3488,6 @@ span#bd-status:before {
     margin: 0;
     border-radius: 0;
 }
-.wrapperHoveredText-1PA_Uk:before {
-    content: " ";
-    width: 5px;
-    height: 100%;
-    position: absolute;
-    background-color: var(--hover-color);
-}
 .wrapper-fDmxzK {
     height: auto;
 }
@@ -3507,16 +3508,6 @@ span#bd-status:before {
 	border-bottom: none;
     padding: 10px 0 0 15px;
     border-top: 2px solid rgba(8, 162, 210, 0.5);
-}
-.unread-23Kvxk {
-    position: absolute;
-    height: 75%;
-    width: 5px;
-    border-radius: 0 6px 6px 0;
-    top: 12%;
-    left: 0;
-    margin-top: 0;
-    background-color: var(--hover-color);
 }
 .buttonBrandFilled-3Mv0Ra {
     background-color: var(--main-color);
@@ -3648,3 +3639,53 @@ span#bd-status:before {
 .ui-video-height.minimum, .ui-video-height.normal {
     background: linear-gradient(black, rgba(0, 11, 16, 0.95), rgba(0, 61, 78, 0.95));
 }
+/*-------------------------------
+--------channels tuneup----------
+-------------------------------*/
+/*selected channel background*/
+.contentSelectedText-3j5CXt {
+    background: linear-gradient(to right, rgba(5, 127, 149, 0.6) , rgba(255, 255, 0, 0));
+}
+/*channel hover pseudo*/
+.wrapperHoveredText-1PA_Uk:before {
+    content: " ";
+	position: absolute;
+    transition: top 0.2s, width 0.2s, height 0.2s, border-radius 0.5s;
+    height: 100%;
+    top: 0;
+    width: 5px;
+    background-color: var(--hover-color);
+}
+/*unread channel pseudo*/
+.wrapperUnreadText-1MykVG.wrapper-fDmxzK:before {
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 5px;
+    border-radius: 0 6px 6px 0;
+    top: 4px;
+    left: 0;
+    background-color: var(--hover-color);
+    transition: top 0.2s, width 0.2s, height 0.2s, border-radius 0.5s;
+}/*0 width pseudo on read/muted channels*/
+.wrapperMutedText-34VhKk.wrapper-fDmxzK:before, .wrapperDefaultText-3M3F1R.wrapper-fDmxzK:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    border-radius: 0;
+    left: 0;
+    background-color: var(--hover-color);
+    transition: top 0.2s, width 0.2s, height 0.2s, border-radius 0.5s;
+}
+/*hide original unread element*/
+.unread-23Kvxk {
+    display: none;
+}
+/*channel hover/select color transition*/
+.contentSelectedText-3j5CXt, .contentDefaultText-2elG3R, .contentHoveredText-2HYGIY {
+    transition: background 1s, background-color 0.35s;
+}
+/*-------------------------------
+------end channels tuneup--------
+-------------------------------*/
