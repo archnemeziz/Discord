@@ -3549,53 +3549,6 @@ span#bd-status:before {
 .itemBrand-mC9YR4 {
     color: var(--main-color);
 }
-/*-------------------------------
-----------status picker----------
--------------------------------*/
-/*hide explanation text*/
-.status-text, .status-picker .helper {
-    display: none;
-} 
-.status-picker .popout-menu-item {
-    padding: 6px 0px;
-}
-.status-picker .popout-menu-separator {
-    border-bottom: 0;
-}
-/*status icons*/
-.status-picker .status {
-    width: 30px;
-    height: 20px;
-    border-radius: 4px;
-}
-/*menu size*/
-.status-picker.popout-menu {
-    width: 30px;
-    height: 160px;
-}
-/*override default popout menu style placement*/
-.popout.popout-top {
-    left: 0 !important;
-    margin-top: 41px;
-    margin-left: 80px;
-    border-bottom-left-radius: 20px;
-    transform: translateY(-100%) translateX(0) translateZ(0)!important;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border: 1px solid rgba(0, 176, 255, 0.6);
-}
-/*popout z-index*/
-.popout {
-    z-index: 999;
-}
-/*avatar z-index*/
-.container-iksrDt .avatar-small {
-    z-index: 1000;
-}
-/*-------------------------------
--------end status picker---------
--------------------------------*/
 /*create/join server prompt*/
 .create-guild-container.deprecated, .create-guild-container.deprecated .create-or-join .form-inner {
     background-color: transparent;
@@ -3633,6 +3586,9 @@ span#bd-status:before {
     background-color: rgba(47, 49, 54, 0.3);
 }
 /*screen share background*/
+.theme-dark .tiles-3jKTg9 {
+    background-color: rgba(55, 78, 101, 0.2);
+}
 .theme-dark .chat .private-channel-call {
     background-color: rgba(0, 0, 0, 0.75);
 }
@@ -3689,3 +3645,41 @@ span#bd-status:before {
 /*-------------------------------
 ------end channels tuneup--------
 -------------------------------*/
+/*status picker bg color*/
+.status-picker.popout-menu {
+    background: rgba(0, 71, 99, 0.85);
+}
+/*rtc border*/
+#rtc-connection-popout {
+    border: 2px solid var(--hover-color);
+    border-radius: 5px;
+}
+/*rtc border radius*/
+#rtc-connection-popout section {
+    border-radius: 5px !important;
+}
+/*screenshare options popout bg color and border*/
+.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.ui-quick-select-popout.screenshare-popout {
+    background-color: rgba(0, 106, 138, 0.85) !important;
+    border: 1px solid rgba(0, 255, 255, 0.5);
+}
+/*screenshare options popout stop sharing font weight*/
+.labelDestructive-rHTKeq {
+    font-weight: 600;
+}
+/*screenshare options popout hover color*/
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.ui-quick-select-popout-option:hover {
+    background-color: rgba(0, 173, 255, 0.2);
+}
+/*screenshare selected video border*/
+.ui-call-avatar-border.video.selected:not(.speaking) {
+    box-shadow: inset 0 0 0 2px rgb(0, 124, 173);
+}
+/*tooltip bg color*/
+.tooltip.tooltip-brand {
+    background-color: var(--main-color);
+}
+/*tooltip arrow color*/
+.tooltip.tooltip-brand.tooltip-right:after, .tooltip.tooltip-brand.tooltip-top:after {
+    border-right-color: var(--main-color);
+}
