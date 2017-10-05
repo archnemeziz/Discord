@@ -2333,21 +2333,15 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     max-width: 100%;
 }
 /*----------quickswitcher ctrl+k----------*/
-.quickswitcher.dark {
-    background-color: rgba(0, 0, 0, 0.6);
+.quickswitcher-2NdiGJ {
+    background-color: rgba(0, 0, 0, 0.7) !important;
     box-shadow: 0 2px 50px rgb(0, 0, 0),0 0 0 1px rgba(0, 180, 255, 0.37);
 }
-.quickswitcher.dark .big-input {
+.quickswitcher-2NdiGJ .input-MwQhcX {
     background-color: rgba(5, 127, 149, 0.8);
     box-shadow: 0 0px 40px rgb(5, 127, 149),0 0 0 2px rgb(0, 0, 0);
 }
-.quickswitcher.dark .scroller-wrap:before {
-    background-image: none;
-}
-.quickswitcher.dark .result {
-    color: #00e5ff;
-}
-.quickswitcher.dark .result.selected {
+.quickswitcher-2NdiGJ .resultFocused-2geRUA {
     background-color: rgba(5, 127, 149, 0.6);
 }
 .keybind-shortcut.dark span {
@@ -2421,33 +2415,33 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 /*-----------new toggles-----------*/
 /*off*/
-.switchEnabled-3CPlLV {
+.switchEnabled-3CPlLV, .switchDisabled-2OLY_e {
     background: rgba(41, 54, 76, 0.5) !important;
     border-radius: 0 10px 10px 0 !important;
     border: 1px solid rgba(0, 255, 255, 0.25) !important;
 }
 /*off hover*/
-.switchEnabled-3CPlLV:hover {
+.switchEnabled-3CPlLV:hover, .switchDisabled-2OLY_e:hover {
     background-color: rgba(0, 241, 255, 0.3) !important;
 }
 /*on*/
-.switchEnabled-3CPlLV.valueChecked-3Bzkbm {
+.switchEnabled-3CPlLV.valueChecked-3Bzkbm, .switchDisabled-2OLY_e.valueChecked-3Bzkbm {
     background: rgba(0, 126, 134, 0.4) !important;
     border: 1px solid rgba(0, 243, 255, 0.5) !important;
 }
 /*on hover*/
-.switchEnabled-3CPlLV.valueChecked-3Bzkbm:hover {
+.switchEnabled-3CPlLV.valueChecked-3Bzkbm:hover, .switchDisabled-2OLY_e.valueChecked-3Bzkbm:hover {
     background-color: rgba(0, 241, 255, 0.5) !important;
 }
 /*off button*/
-.switchEnabled-3CPlLV:after {
+.switchEnabled-3CPlLV:after, .switchDisabled-2OLY_e:after {
     top: -1px !important;
     left: -1px !important;
     background: rgba(0, 194, 255, 0.45) !important;
     border-radius: 0 !important;
 }
 /*on button*/
-.switchEnabled-3CPlLV.valueChecked-3Bzkbm:after {
+.switchEnabled-3CPlLV.valueChecked-3Bzkbm:after, .switchDisabled-2OLY_e.valueChecked-3Bzkbm:after {
     background-color: rgba(0, 243, 255, 0.7) !important;
     border-radius: 0 8px 8px 0 !important;
 }
@@ -2978,24 +2972,28 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     cursor: pointer;
 }
 .theme-dark .ui-select .Select-option.is-focused, .theme-dark .ui-select .Select-option:hover {
-    background: rgba(0, 222, 247, 0.3);
+    background: rgba(0, 222, 247, 0.3) !important;
 }
 .theme-dark .ui-select .Select-menu-outer {
-    border-color: var(--main-color);
+    border-color: var(--main-color) !important;
     box-shadow: none;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.92) !important;
+}
+.theme-dark .ui-select>.Select .Select-control .Select-placeholder {
+    line-height: 43px;
 }
 .Select.is-open > .Select-control {
     border-bottom: none !important;
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.92) !important;
 }
 .Select-menu-outer {
-    margin-top: 0;
-    width: 99.9%;
     max-height: none;
 }
 .Select-menu {
     max-height: 500px;
+}
+.Select-option {
+    padding-top: 11px !important;
 }
 /*overlay*/
 .ui-card-warning {
@@ -3680,6 +3678,34 @@ span#bd-status:before {
     background-color: var(--main-color);
 }
 /*tooltip arrow color*/
-.tooltip.tooltip-brand.tooltip-right:after, .tooltip.tooltip-brand.tooltip-top:after {
+.tooltip.tooltip-brand.tooltip-right:after {
     border-right-color: var(--main-color);
+}
+.tooltip.tooltip-brand.tooltip-top:after {
+	border-top-color: var(--main-color);
+}
+.tooltip.tooltip-brand.tooltip-bottom:after {
+    border-bottom-color: var(--main-color);
+}
+.tooltip.tooltip-brand.tooltip-left:after {
+    border-left-color: var(--main-color);
+}
+/*server notification/privacy menu toggle size correction*/
+.modal-2LIEKY .sizeDefault-rZbSBU {
+    height: 22px;
+    width: 40px;
+}
+/*ping autofill text color with @user in attatchment message*/
+.theme-brand .content-249Pr9 {
+    color: #b1b1b1;
+}
+/*server emoji settings*/
+.theme-dark .emoji-alias-input .emoji-input {
+    background-color: rgba(0, 220, 255, 0.3);
+}
+.theme-dark .input-2YozMi:hover {
+    border-color: var(--main-color);
+}
+.theme-dark .input-2YozMi:focus {
+    border-color: rgba(0, 255, 255, 0.55);
 }
