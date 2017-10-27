@@ -3721,3 +3721,10 @@ span#bd-status:before {
 .theme-dark .footer-XPgXYX {
     background-color: transparent;
 }
+/*transparency fix after update 27/10/2017*/
+.channels-3g2vYe {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.appMount-14L89u, .container-2OU7Cz, .container-2OU7Cz, .theme-dark .headerBar-cxbhPD, .theme-dark .chat form, .theme-dark .title-qAcLxz {
+    background-color: transparent !important;
+}
