@@ -3728,3 +3728,11 @@ span#bd-status:before {
 .appMount-14L89u, .container-2OU7Cz, .container-2OU7Cz, .theme-dark .headerBar-cxbhPD, .theme-dark .chat form, .theme-dark .title-qAcLxz {
     background-color: transparent !important;
 }
+/*server settings height fix*/
+.theme-dark .ui-standard-sidebar-view {
+    height: 100%;
+}
+/*profile card backdrop transparency*/
+.backdrop-2ohBEd {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
