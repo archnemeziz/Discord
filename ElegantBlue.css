@@ -3752,3 +3752,13 @@ span#bd-status:before {
 .winButtonMinMax-bT_gQ1:hover {
     background-color: rgba(0, 126, 255, 0.46) !important;
 }
+/*category style*/
+.containerDefault-1bbItS {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.cursorPointer-3oKATS {
+    cursor: pointer;
+    background-color: rgba(0, 161, 255, 0.15);
+    border-radius: 10px;
+}
