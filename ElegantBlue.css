@@ -3780,8 +3780,12 @@ span#bd-status:before {
 .avatar-1BXaQj {
     border: 4px solid #184554;
 }
+/*profile pic mask*/
+.maskProfile-MeBve8 {
+    -webkit-mask: none;
+}
 /*status square*/
-.image-EVRGPw, .status-3jUEha {
+.status-3jUEha {
     border-radius: 0;
 }
 .statusProfile-29OBzn {
