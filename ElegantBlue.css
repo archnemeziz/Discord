@@ -744,7 +744,7 @@ a:link { color: var(--main-color); }
 
 #user-profile-modal .header .discord-tag {color: #fff;font-size: 18px;margin-top: -27px;}
 
-.tab-bar.TOP { border-bottom: 1px solid var(--main-color); }
+.tab-bar.TOP { border-bottom: 0 }
 
 #bd-ps-body table tr:nth-child(odd):hover { background-color: var(--main-color); }
 
@@ -760,7 +760,7 @@ a:link { color: var(--main-color); }
 
 .member-roles .member-role.member-role-add button { background: url(https://i.imgur.com/1MfzLoF.png) 50% no-repeat; width: 8px; height: 12px; background-size: 10px; }
 
-.member-roles .member-role:hover { background-color: var(--hover-color); }
+.member-roles .member-role:hover { background-color: var(--hover-color); border-color: rgba(0, 191, 249, 0.79); }
 
 .guilds-add:hover { border-color: #2ed172; color: transparent; opacity: 1.0; -webkit-animation: color_change 1s infinite alternate; -moz-animation: color_change 1s infinite alternate; -ms-animation: color_change 1s infinite alternate; -o-animation: color_change 1s infinite alternate; animation: color_change 1s infinite alternate; }
 
@@ -2075,7 +2075,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected .badge {background-color: #f04747;color: #fff;}
 
-#friends .friends-table .friends-row .friends-column-guilds .avatar-small {background-color: var(--main-color);}
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {background-color: transparent;}
 
 .spinner-pulsing-ellipsis .spinner-item {background-color: var(--main-color);}
 
@@ -3791,4 +3791,56 @@ span#bd-status:before {
 .statusProfile-29OBzn {
     height: 21px;
     width: 21px;
+}
+/*profile header*/
+.topSectionNormal-2LlRG1, .header-2Lg0Oe, .headerFill-TTyrtz {
+    background-color: rgba(0, 26, 39, 0.9);
+}
+/*profile footer*/
+.theme-dark .body-3_tdh6 {
+    background-color: rgba(0, 16, 23, 0.9);
+}
+/*profile background when playing*/
+.topSectionPlaying-3jAH9b {
+    background: transparent;
+}
+/*profile info tabs*/
+.tab-bar.TOP .tab-bar-item.selected, .tabBarItem-1Lg555 {
+    margin-bottom: 15px !important;
+    padding-top: 20px !important;
+}
+/*profile info tabs container bottom border*/
+.tabBarContainer-3RVZc- {
+    border-bottom: 1px solid var(--main-color);
+}
+/*profile mutual friends profile pic border*/
+.listAvatar-MpHQ5z {
+    border-width: 2px;
+}
+/*profile mutual friends profile pic size*/
+.large-3yh-62 {
+    height: 30px;
+    width: 30px;
+}
+/*profile send message button when playing*/
+.buttonBrandInverted-VFL7Yc {
+    background-color: #43b581;
+    color: #fff;
+}
+.buttonBrandInverted-VFL7Yc:hover {
+    background-color: #3ca374;
+    color: #fff;
+}
+.buttonBrandInverted-VFL7Yc:active {
+    background-color: #369167;
+    color: #fff;
+}
+/*profile card member role background/border*/
+.theme-dark .rolesList-2YHFg5 .member-role {
+    background-color: transparent;
+    border-color: var(--main-color);
+}
+/*audit log/emoji log/web hook profile pic border*/
+.avatar-U5vyrM, .xsmall-2rXiD4, .large-3yh-62 {
+    border-width: 2px;
 }
