@@ -3462,12 +3462,9 @@ span#bd-status:before {
 	color: white !important;
 }
 /*User popout roles scroller*/
-.userPopout-4pfA0d {
-    max-height: 70vh;
-}
-.userPopout-4pfA0d .body-3rkFrF .member-roles {
+.userPopout-4pfA0d .body-3rkFrF .rolesList-2YHFg5 {
     overflow-y: auto;
-    max-height: 29vh;
+    max-height: 200px;
     position: relative;
 }
 /*fixes after another discord update*/
@@ -3843,4 +3840,26 @@ span#bd-status:before {
 /*audit log/emoji log/web hook profile pic border*/
 .avatar-U5vyrM, .xsmall-2rXiD4, .large-3yh-62 {
     border-width: 2px;
+}
+/*friends area header bar*/
+.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO.headerBar-cxbhPD {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+/*server settings selected menu*/
+.side-2nYO0F .itemSelected-3XxAMf {
+    background-color: var(--main-color);
+}
+/*add role to user popup*/
+.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background {
+    background-color: rgba(0, 60, 78, 0.98);
+}
+.theme-dark #autocomplete-popout section {
+    background-color: rgba(0, 28, 39, 0.98);
+    color: #72767d;
+}
+.theme-dark #autocomplete-popout .row.selected {
+    background: linear-gradient(90deg,rgba(0, 99, 156, 0.8),transparent);
+}
+#autocomplete-popout .autocomplete-shadow {
+    border-radius: 9px;
 }
