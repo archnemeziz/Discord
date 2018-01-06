@@ -3863,3 +3863,25 @@ span#bd-status:before {
 #autocomplete-popout .autocomplete-shadow {
     border-radius: 9px;
 }
+/*window drag area background color*/
+.typeWindows-15E0Ys {
+    background-color: rgb(0, 55, 72);
+}
+/*Add custom game popup*/
+.theme-dark .add-game-popout {
+    background-color: rgba(0, 30, 47, 0.95);
+    border: 2px solid #005d8a;
+}
+/**Reversing the retarded setting toggle order in connection settings**/
+/*reverse toggle to be in front of text*/
+.connection .connection-options .noWrap-v6g9vO {
+    flex-direction: row-reverse;
+}
+/*button left margin*/
+.connection-options .themeClear-1NqU69 {
+    margin-left: 0;
+}
+/*text left margin*/
+.connection .connection-options .flex-lFgbSz h3 {
+    margin-left: 10px;
+}
