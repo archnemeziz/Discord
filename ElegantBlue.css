@@ -564,7 +564,7 @@ textarea { background: transparent !important; }
 
 .message-group { margin-left: 10px; }
 
-.message-group.compact .timestamp { width: 45px; vertical-align: text-bottom; margin-bottom: 1px; }
+.message-group.compact .timestamp { width: 53px; vertical-align: baseline; margin-bottom: -2px; }
 
 .message-group.compact .emoji { width: 18px; height: 18px; vertical-align: text-top; }
 
@@ -3884,4 +3884,138 @@ span#bd-status:before {
 /*text left margin*/
 .connection .connection-options .flex-lFgbSz h3 {
     margin-left: 10px;
+}
+/*Zerebros fork*/
+/*bd loaded errors*/
+.bd-modal-wrapper .bd-modal-body {
+    background-color: rgba(0, 49, 72, 0.9);
+}
+.bd-modal-wrapper .header, .theme-dark .footer-1PYmcw {
+    background-color: rgba(0, 79, 109, 0.9);
+}
+.bd-modal-wrapper .footer button {
+    background-color: var(--main-color);
+}
+.bd-modal-wrapper .footer button:hover, .bd-modal-wrapper .footer button:active {
+    background-color: var(--hover-color);
+}
+/*tab*/
+.bd-modal-wrapper .tab-bar-container .tab-bar-item {
+    padding: 5px 0;
+    padding-top: 20px !important;
+    margin-bottom: 15px !important;
+}
+/*background transparency fix after update 17.01.2018*/
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW {
+    background: transparent;
+}
+/*server settings menu background fix after update 17.01.2018*/
+.menu-3BZuDT {
+    background: rgb(0, 42, 58);
+}
+.separator-1hpa3S {
+    border-bottom: 1px solid var(--main-color);
+}
+.item-rK1j5B:hover {
+    background-color: rgba(0, 208, 255, 0.3);
+    color: #e6e6e6;
+}
+/*profile card message backgorund fix after update 17.01.2018*/
+.quickMessage-318jK- {
+    border: none;
+}
+.theme-dark .quickMessage-28pD5Y {
+    background-color: transparent;
+	margin-bottom: 0 !important;
+}
+/*keybinds hover fix after update 17.01.2018*/
+.card-11ynQk.active-LUb1iN:before, .card-11ynQk:hover:before {
+    background-color: rgba(0, 173, 255, 0.35) !important;
+    border-color: #007da2 !important;
+}
+/*dropdown menu fix after update 17.01.2018*/
+.Select--single>.Select-control .Select-value, .Select-placeholder {
+	cursor: pointer;
+}
+.theme-dark .select-3JqNgs .is-focused .Select-control {
+    border-color: var(--main-color);
+}
+.theme-dark .select-3JqNgs .Select-menu-outer {
+    background-color: rgba(0, 0, 0, 0.79);
+    border: 1px solid var(--main-color);
+    border-top: none;
+}
+.theme-dark .select-3JqNgs .Select-option.is-selected {
+    background: rgb(0, 63, 82);
+}
+.theme-dark .select-3JqNgs .Select-option.is-focused, .theme-dark .select-3JqNgs .Select-option:hover {
+    background: rgba(0, 196, 255, 0.65);
+}
+.theme-dark .button-1qrA-N {
+    background-color: transparent;
+}
+.theme-dark .button-1qrA-N:hover {
+    background-color: rgba(0, 161, 255, 0.5);
+    box-shadow: 0 0 0 1px rgba(146, 0, 0, 0.5), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+.Select .Select-menu {
+    max-height: 400px;
+}
+/*server settings filter button fix after update 17.01.2018*/
+.quickSelectClick-36aPV0 {
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 1px;
+}
+/*server settings filter dropdown fix after update 17.01.2018*/
+.theme-dark .popoutList-2NT_IY {
+    background: rgba(0, 22, 31, 0.96);
+}
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO.selectableItem-3PW5_y.selected-3MAwPR {
+    background: var(--main-color);
+}
+.theme-dark .selectableItem-3PW5_y:hover {
+    background-color: rgba(2, 84, 103, 0.5);
+}
+.theme-dark .searchBar-YMJBu9 {
+    background-color: rgba(0, 184, 255, 0.15);
+}
+.popoutList-2NT_IY {
+    border-radius: 10px;
+}
+/*context menu fix after update 17.01.2018*/
+.theme-dark .contextMenu-uoJTbz {
+    background: rgba(0, 21, 29, 0.95);
+    border: 1px solid var(--hover-color);
+}
+.theme-dark .itemSubMenu-3ZgIw- {
+    background: transparent url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
+}
+.theme-dark .itemSubMenu-3ZgIw-:hover {
+    background: var(--hover-color) url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) no-repeat 155px 50%;
+}
+.theme-dark .item-1XYaYf:hover {
+    background: var(--hover-color);
+}
+.item-1XYaYf {
+    border-radius: 0;
+}
+.contextMenu-uoJTbz div:hover {
+    cursor: pointer;
+}
+.barFill-18ABna {
+    background-color: rgba(0, 137, 255, 0.8);
+}
+.itemToggle-e7vkml .checkbox {
+    margin-right: 10px;
+}
+/*user is typing fix after update 17.01.2018*/
+.theme-dark .typing-3eiiL_ {
+    background-color: transparent;
+}
+.typing-3eiiL_ {
+    height: 20px;
+}
+.typing-3eiiL_ .ellipsis--nKTEd {
+    margin-top: 3px;
 }
