@@ -1101,29 +1101,29 @@ img.image { border-radius: 5px; }
 
 .notice { background-color: rgba(251, 81, 0, 0.68); }
 
-.emoji-picker .dimmer { background-color: transparent; }
+.emojiPicker-3g68GS .dimmer-jySV_v { background-color: transparent; }
 
-.emoji-picker .search-bar input { background-color: rgba(0, 0, 0, 0.55); color: #fff; border: 1px solid black; }
+.emojiPicker-3g68GS .search-bar input { background-color: rgba(0, 0, 0, 0.55); color: #fff; border: 1px solid black; }
 
-.emoji-picker .categories .item.selected { border-bottom-color: var(--main-color); }
+.emojiPicker-3g68GS .categories .item.selected { border-bottom-color: var(--main-color); }
 
-.emoji-picker .categories .item.people { background-image: url(https://discordapp.com/assets/0509bf058793ef8ddd770a977e63614c.svg); }
+.emojiPicker-3g68GS .categories .item.people { background-image: url(https://discordapp.com/assets/0509bf058793ef8ddd770a977e63614c.svg); }
 
-.emoji-picker .categories .item.nature { background-image: url(https://discordapp.com/assets/aafe899a4d7ad7717acc64f5b8f36342.svg); }
+.emojiPicker-3g68GS .categories .item.nature { background-image: url(https://discordapp.com/assets/aafe899a4d7ad7717acc64f5b8f36342.svg); }
 
-.emoji-picker .categories .item.food { background-image: url(https://discordapp.com/assets/0eb5a2b715ff649e9757a232996817ab.svg); }
+.emojiPicker-3g68GS .categories .item.food { background-image: url(https://discordapp.com/assets/0eb5a2b715ff649e9757a232996817ab.svg); }
 
-.emoji-picker .categories .item.activity { background-image: url(https://discordapp.com/assets/8674c1028a63d29fb605be53eeedf1bf.svg); }
+.emojiPicker-3g68GS .categories .item.activity { background-image: url(https://discordapp.com/assets/8674c1028a63d29fb605be53eeedf1bf.svg); }
 
-.emoji-picker .categories .item.travel { background-image: url(https://discordapp.com/assets/13e86ddf4302f697243425b2f954d00b.svg); }
+.emojiPicker-3g68GS .categories .item.travel { background-image: url(https://discordapp.com/assets/13e86ddf4302f697243425b2f954d00b.svg); }
 
-.emoji-picker .categories .item.objects { background-image: url(https://discordapp.com/assets/6d9a5b47dc3bf7adf54f19b1e3f6c5ad.svg); }
+.emojiPicker-3g68GS .categories .item.objects { background-image: url(https://discordapp.com/assets/6d9a5b47dc3bf7adf54f19b1e3f6c5ad.svg); }
 
-.emoji-picker .categories .item.symbols { background-image: url(https://discordapp.com/assets/83095e6af6c7cf33669e3ab169296867.svg); }
+.emojiPicker-3g68GS .categories .item.symbols { background-image: url(https://discordapp.com/assets/83095e6af6c7cf33669e3ab169296867.svg); }
 
-.emoji-picker .categories .item.flags { background-image: url(https://discordapp.com/assets/ccda5cf0a64abbd18fdb9f914b55292e.svg); }
+.emojiPicker-3g68GS .categories .item.flags { background-image: url(https://discordapp.com/assets/ccda5cf0a64abbd18fdb9f914b55292e.svg); }
 
-.emoji-picker .categories .item.recent { background-image: url(https://discordapp.com/assets/0f1f2dff98b5e2099086e303d9be0dad.svg); }
+.emojiPicker-3g68GS .categories .item.recent { background-image: url(https://discordapp.com/assets/0f1f2dff98b5e2099086e303d9be0dad.svg); }
 
 .theme-dark .chat .title-wrap .topic .highlight:hover { background-color: var(--main-color); border-radius: 4px; }
 
@@ -1217,9 +1217,9 @@ form.auth-form { background: rgba(0, 0, 0, 0.56); }
 
 .message-group h2 .timestamp { color: #B4B5B5; }
 
-.emoji-picker { overflow: hidden; background-color: rgba(0, 0, 0, 0.55); border: 1px solid rgba(0, 0, 0, 0.31); box-shadow: none; }
+.emojiPicker-3g68GS { overflow: hidden; background-color: rgba(0, 0, 0, 0.55); border: 1px solid rgba(0, 0, 0, 0.31); box-shadow: none; }
 
-.emoji-picker .search-bar { background-color: transparent; }
+.emojiPicker-3g68GS .search-bar { background-color: transparent; }
 
 .theme-dark #friends .friends-header { border-bottom: 1px solid rgba(0, 0, 0, 0.37); box-shadow: none; }
 
@@ -1233,19 +1233,19 @@ form.auth-form { background: rgba(0, 0, 0, 0.56); }
 
 .item:hover { background-color: rgba(0, 0, 0, 0.5); border-radius: 3px; }
 
-.emoji-picker .search-bar-clear { background: #FFFFFF; }
+.emojiPicker-3g68GS .search-bar-clear { background: #FFFFFF; }
 
-.emoji-picker .search-bar-clear:before { background: black; }
+.emojiPicker-3g68GS .search-bar-clear:before { background: black; }
 
-.emoji-picker .search-bar-clear:after { background: #FFFFFF; }
+.emojiPicker-3g68GS .search-bar-clear:after { background: #FFFFFF; }
 
 .search-bar-clear:after { background: #057f95; }
 
-.emoji-picker .search-bar-clear.active:after, .emoji-picker .search-bar-clear.active:before { background: #1c1c1c; }
+.emojiPicker-3g68GS .search-bar-clear.active:after, .emojiPicker-3g68GS .search-bar-clear.active:before { background: #1c1c1c; }
 
-.emoji-picker .no-search-results .sad-discord { opacity: 0.6; -webkit-filter: invert(90%); }
+.emojiPicker-3g68GS .no-search-results .sad-discord { opacity: 0.6; -webkit-filter: invert(90%); }
 
-.emoji-picker .no-search-results { color: #B2B2B2; }
+.emojiPicker-3g68GS .no-search-results { color: #B2B2B2; }
 
 .form .control-group label a { color: var(--main-color); }
 
@@ -1732,7 +1732,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 @media screen and (max-width: 340px) {
  .message-group h2{max-width: 60%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
- .emoji-picker{width:90%;}
+ .emojiPicker-3g68GS{width:90%;}
 }
 
 .change-log-button-container:hover {font-weight: 500;border-bottom: 2px solid var(--main-color);background: rgba(0, 0, 0, 0.48);opacity: 0.85;}
@@ -1792,9 +1792,9 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 #friends .friends-table .friends-table-header{display: none;}
 
-#friends .friends-table .friends-table-body > div{display: flex;flex-flow: row wrap;justify-content: center;}
+#friends .friends-table .friends-table-body > div{display: flex;flex-flow: row wrap;}
 
-#friends .friends-table .friends-row{background: rgba(0, 0, 0, 0.2)!important;box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);border-radius: 5px;margin: 15px;padding: 0;height: 120px!important;flex-direction: column;flex-basis: 300px;position: relative;opacity: 0.85!important;transition: opacity 300ms ease-ins;}
+#friends .friends-table .friends-row{background: rgba(0, 0, 0, 0.2)!important;box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);border-radius: 5px;margin: 15px;padding: 0;height: 120px!important;flex-direction: column;flex-basis: 300px;position: relative;opacity: 0.85!important;transition: opacity 300ms ease-in;}
 
 #friends .friends-table .friends-row:hover{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);border-radius: 5px;margin: 15px;padding: 0;opacity: 1!important;}
 
@@ -1912,7 +1912,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 .guild-settings-modal-members h6 { color: #c1c1c1; } 
 
-.emoji-picker .search-bar .search-bar-inner { background-color: transparent; }
+.emojiPicker-3g68GS .search-bar .search-bar-inner { background-color: transparent; }
 
 .detected-platform-accounts-modal { background-color: rgba(0, 0, 0, 0.61);padding: 10px;border-radius: 3px; }
 
@@ -2774,7 +2774,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     background-color: rgba(0, 181, 214, 0.5);
     border: 2px solid var(--main-color);
 }
-#bda-qem-favourite-container, #bda-qem-twitch-container, .emoji-picker {
+#bda-qem-favourite-container, #bda-qem-twitch-container, .emojiPicker-3g68GS {
 	background-color: rgba(25, 55, 66, 0.9);
     border-radius: 0;
     border: 2px solid var(--main-color);
@@ -2791,76 +2791,76 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 #rmenu:hover {
     background: rgba(0, 93, 115, 0.85);
 }
-.emoji-picker .dimmer {
+.emojiPicker-3g68GS .dimmer-jySV_v {
 	z-index: 2;
 	border-radius: 0;
 }
-.emoji-picker .dimmer.visible {
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
     pointer-events: auto;
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
-.emoji-picker .header {
+.emojiPicker-3g68GS .header-27dQ-e {
     border-bottom: 1px solid var(--main-color);
 }
-.emoji-picker .header .search-bar {
+.emojiPicker-3g68GS .header-27dQ-e .search-bar {
     background-color: rgba(19, 87, 113, 0.28);
 	padding: 13px 5px 12px 10px;
 	border-radius: 0;
 	border-right: 1px solid var(--main-color);
 }
-.emoji-picker .search-bar-icon .icon {
+.emojiPicker-3g68GS .search-bar-icon .icon {
     right: -3px;
 }
-.emoji-picker .sticky-header {
+.emojiPicker-3g68GS .stickyHeader-3LjM5X {
     width: 94%;
 	background-color: transparent;
 }
-.diversity-selector {
+.diversitySelector-O3ea2c {
     margin: 5px !important;
 }
-.diversity-selector .popout {
+.diversitySelector-O3ea2c .popout-2lja3I {
     background: rgba(31, 121, 142, 0.75) !important;
     border: 1px solid var(--main-color);
 }
-.diversity-selector .item:hover {
+.diversitySelector-O3ea2c .item-lsWB-j:hover {
     background-color: rgba(0, 208, 255, 0.4) !important;
 }
-.emoji-picker .category {
+.emojiPicker-3g68GS .category-3rCtoh {
     background-color: rgba(3, 92, 119, 0.85);
     color: #cccccc;
 	border-radius: 20px 0 20px 0;
     margin-left: 4px;
     text-align: center;
 }
-.emoji-picker .scroller .row {
+.emojiPicker-3g68GS .scroller-fzNley.scroller-2dsok0 .row-OcLAIW {
     margin-left: 2px;
 }
-.emoji-picker .categories {
+.emojiPicker-3g68GS .categories-jw8z2h {
     border-top: 1px solid var(--main-color);
     padding: 0 13px;
 	margin: 0;
 }
-.emoji-picker .scroller .emoji-item {
+.emojiPicker-3g68GS .scroller-fzNley.scroller-2dsok0 .emojiItem-3l4Fa9 {
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
 	background-position: 50% !important;
 }
-.emoji-picker .scroller .emoji-item.selected {
+.emojiPicker-3g68GS .scroller-fzNley.scroller-2dsok0 .emojiItem-3l4Fa9.selected {
 	background-color: var(--main-color) !important;
 	border-radius: 3px;
 }
-.emoji-picker .premium-promo {
+.emojiPicker-3g68GS .premium-promo {
     top: 5px;
     background-color: rgba(17, 54, 68, 0.95);
     border-radius: 0;
 }
-.emoji-picker .premium-promo .premium-promo-title {
+.emojiPicker-3g68GS .premium-promo .premium-promo-title {
     color: #a5aab3;
 }
-.emoji-picker .premium-promo .btn {
+.emojiPicker-3g68GS .premium-promo .btn {
     background-color: var(--main-color);
 }
-.emoji-picker .premium-promo .btn:hover {
+.emojiPicker-3g68GS .premium-promo .btn:hover {
     background-color: var(--hover-color);
 }
 /*emoji search placeholder*/
@@ -2868,7 +2868,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     color: rgba(255, 255, 255, 0.3);
 }
 /*prevent going off screen if opened too low*/
-.popout #bda-qem, .popout #bda-qem-twitch-container, .popout #bda-qem-favourite-container, .popout .emoji-picker {
+.popout #bda-qem, .popout #bda-qem-twitch-container, .popout #bda-qem-favourite-container, .popout .emojiPicker-3g68GS {
     transform: translateY(-20px);
 }
 /*-------------------------------
@@ -4018,4 +4018,19 @@ span#bd-status:before {
 }
 .typing-3eiiL_ .ellipsis--nKTEd {
     margin-top: 3px;
+}
+/*emoji picker emoji hover color fix after update 17.01.2018*/
+/*rest of the emoji picker fixes were under the previous emoji picker code(class renames)*/
+.emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ {
+    background-color: var(--main-color);
+}
+/*friends list fixes after update 17.01.2018*/
+#friends .friends-table .friends-table-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#friends .friends-table .friends-row {
+    width: 30%;
+	max-width: 400px;
 }
