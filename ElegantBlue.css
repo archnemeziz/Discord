@@ -4049,3 +4049,7 @@ span#bd-status:before {
 .theme-dark .quickSelectPopoutOption-30K_XY:hover {
     background-color: rgba(0, 231, 255, 0.2);
 }
+/*open original image link color, was previously set to var(--main-color) by a:link*/
+.downloadLink-wANcd8 {
+    color: #fff !important;
+}
