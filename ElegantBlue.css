@@ -4029,8 +4029,23 @@ span#bd-status:before {
     display: flex;
     flex-wrap: wrap;
 }
-
 #friends .friends-table .friends-row {
     width: 30%;
 	max-width: 400px;
+}
+/*fuck the protip*/
+.theme-dark .protip-12obwm {
+    display: none;
+}
+/*call area background fix after update 17.01.2018*/
+.video-3lOWa6 {
+    background: linear-gradient(black, black, rgb(0, 55, 68));
+}
+/*more screen share options context menu fix after update 17.01.2018*/
+.theme-dark .quickSelectPopout-3KoYgk {
+    background: #00557d;
+}
+/*more screen share options context menu hover fix after update 17.01.2018*/
+.theme-dark .quickSelectPopoutOption-30K_XY:hover {
+    background-color: rgba(0, 231, 255, 0.2);
 }
