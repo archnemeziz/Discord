@@ -4053,3 +4053,20 @@ span#bd-status:before {
 .downloadLink-wANcd8 {
     color: #fff !important;
 }
+/*file upload window*/
+.uploadModal-2KN6Mm {
+    background-color: rgba(0, 69, 109, 0.75);
+    border-radius: 5px;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 {
+    background-color: rgba(0, 29, 49, 0.75);
+    border-radius: 0 0 5px 5px;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+    background-color: var(--main-color);
+    color: #fff;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button {
+    margin-left: 5px;
+    background-color: var(--hover-color);
+}
