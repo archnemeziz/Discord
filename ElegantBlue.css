@@ -4036,6 +4036,10 @@ span#bd-status:before {
 .theme-dark #friends .friends-table .friends-row:hover .discord-tag.nameTag-26T3kW {
     overflow: visible;
     margin-top: -20px;
+    transition: .5s;
+}
+.theme-dark #friends .friends-table .friends-row .discord-tag.nameTag-26T3kW {
+    transition: .5s;
 }
 .theme-dark #friends .friends-table .friends-row:hover .friends-column.friends-column-status {
     margin-left: -115px;
@@ -4043,4 +4047,11 @@ span#bd-status:before {
 }
 .theme-dark #friends .friends-table .friends-row:hover .friends-column.friends-column-guilds {
     margin: 0;
+}
+/*friends list column transitions*/
+#friends .friends-table .friends-row .friends-column+.friends-column {
+    transition: margin .5s;
+}
+.theme-dark #friends .friends-table .friends-row:hover .friends-column {
+    transition: margin .5s;
 }
