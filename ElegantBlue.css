@@ -4055,3 +4055,10 @@ span#bd-status:before {
 .theme-dark #friends .friends-table .friends-row:hover .friends-column {
     transition: margin .5s;
 }
+/*Arashiryuu's plugin undo server members top margin and member count color*/
+.channel-members-wrap .channel-members {
+    margin-top: 0 !important;
+}
+.theme-dark #memberCount {
+    background: transparent !important;
+}
