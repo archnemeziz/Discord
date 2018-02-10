@@ -3621,8 +3621,13 @@ span#bd-status:before {
     margin: 20px 0 18px;
 }
 /*top bar*/
+.typeWindows-15E0Ys {
+    height: 22px;
+    margin-top: 0;
+    background-color: black;
+}
 .winButton-U7zAqI {
-    top: -3px;
+    top: 0px;
 }
 .winButtonMinMax-bT_gQ1:hover {
     background-color: rgba(0, 126, 255, 0.46) !important;
