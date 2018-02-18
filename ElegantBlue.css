@@ -27,17 +27,17 @@
 /*Base from other themes, modified by Arch*/
 #user-profile-modal .header { background: transparent !important; overflow: hidden; height: 176px !important; }
 
-.userPopout-4pfA0d .headerNormal-1cioxU { background: rgba(0, 0, 0, .95); border: 2px #184554 solid; }
+.userPopout-11hFKo .headerNormal-3Vn9nT { background: rgba(0, 0, 0, .95); border: 2px #184554 solid; }
 
-.userPopout-4pfA0d .headerStreaming-3F-wjT { background-color: rgba(89, 54, 149, 0.85); border: 2px #184554 solid; }
+.userPopout-11hFKo .headerStreaming-lmgoma { background-color: rgba(89, 54, 149, 0.85); border: 2px #184554 solid; }
 
-.userPopout-4pfA0d .body-3rkFrF { background: rgb(24, 69, 84); padding: 10px 0 10px 10px; border-bottom: 0 !important; }
+.userPopout-11hFKo .body-3ljq11 { background: rgb(24, 69, 84); padding: 10px 0 10px 10px; border-bottom: 0 !important; }
 
-.userPopout-4pfA0d .footer-2J5zqP { background: rgba(0, 0, 0, 0.95); padding: 0 }
+.userPopout-11hFKo .footer-2wFs91 { background: rgba(0, 0, 0, 0.95); padding: 0 }
 
-.userPopout-4pfA0d .avatar-1jmnc- {border: none;background-color: transparent;}
+/*.userPopout-11hFKo .avatar-1jmnc- {border: none;background-color: transparent;}
 
-.userPopout-4pfA0d .avatar-wrapper {box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);border-radius: 50%;}
+.userPopout-11hFKo .avatar-wrapper {box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);border-radius: 50%;}*/
 
 #user-profile-modal .avatar-profile {box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);border: none !important;margin-top: 4px;margin-left: 4px;background-color: transparent;}
 
@@ -178,9 +178,9 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small { background-colo
 
 .member-roles .member-role { background-color: var(--main-color); color: #ffffff; border: 1px solid var(--main-color); }
 
-.userPopout-4pfA0d .user-popout-options .btn { background-color: var(--main-color); border: 1px solid var(--main-color); }
+.userPopout-11hFKo .user-popout-options .btn { background-color: var(--main-color); border: 1px solid var(--main-color); }
 
-.userPopout-4pfA0d .user-popout-options .btn:hover { background-color: var(--hover-color); }
+.userPopout-11hFKo .user-popout-options .btn:hover { background-color: var(--hover-color); }
 
 .chat .welcome-message h1 { color: var(--main-color); }
 
@@ -286,9 +286,9 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small { background-colo
 
 .form hr { border-bottom: 1px solid var(--main-color); }
 
-.userPopout-4pfA0d .user-popout-options .btn.btn-server { color: #fff; background-color: var(--main-color); border-color: var(--main-color); }
+.userPopout-11hFKo .user-popout-options .btn.btn-server { color: #fff; background-color: var(--main-color); border-color: var(--main-color); }
 
-.userPopout-4pfA0d .user-popout-options .btn.btn-server:hover { border-color: var(--main-color); background-color: var(--hover-color); }
+.userPopout-11hFKo .user-popout-options .btn.btn-server:hover { border-color: var(--main-color); background-color: var(--hover-color); }
 
 .member-roles .manipulate:hover { border-color: var(--main-color); background-color: var(--hover-color); }
 
@@ -592,7 +592,7 @@ textarea { background: transparent !important; }
 
 .channel-members .avatar-small .status { border-color: rgba(0, 0, 0, 0.7) !important; }
 
-.userPopout-4pfA0d .user-popout-options .btn:hover { border: 1px solid var(--main-color); }
+.userPopout-11hFKo .user-popout-options .btn:hover { border: 1px solid var(--main-color); }
 
 .tooltip { color: #fff; }
 
@@ -923,7 +923,7 @@ a:link { color: var(--main-color); }
 
 .theme-dark .friends-table .messages .message-group .comment .markup .highlight:hover, .theme-dark .messages-wrapper .messages .message-group .comment .markup .highlight:hover { background-color: var(--main-color); }
 
-.userPopout-4pfA0d { opacity: 1; }
+.userPopout-11hFKo { opacity: 1; }
 
 .user-settings-modal.settings { opacity: 1; /*[[NSFWON]]*/ /*[[NSFWOFF]]*/ }
 
@@ -1243,9 +1243,9 @@ form.auth-form { background: rgba(0, 0, 0, 0.56); }
 
 .theme-dark.context-menu .item-group { border-top-color: rgba(0, 0, 0, 0.85); }
 
-.userPopout-4pfA0d .avatar-1jmnc- { border: 4px solid var(--hover-color); }
+.userPopout-11hFKo .avatar-1jmnc- { border: 4px solid var(--hover-color); }
 
-.userPopout-4pfA0d .footer-2J5zqP .quick-message-wrapper .input { border: 2px solid var(--main-color); background: #0C0C0C; color: #fff; }
+.userPopout-11hFKo .footer-2wFs91 .quick-message-wrapper .input { border: 2px solid var(--main-color); background: #0C0C0C; color: #fff; }
 
 .guilds li:not(.active):not(:first-of-type) { opacity: 0.65; transition: 0.4s ease-in-out opacity; }
 
@@ -1379,7 +1379,7 @@ div#bd-customcss-innerpane { margin-top: 0; margin-left: 0; }
 
 .create-guild-container .action.create .action-icon, .create-guild-container .action.join .action-icon { -webkit-filter: invert(100%) hue-rotate(145deg); }
 
-.userPopout-4pfA0d .username-wrapper .activity { color: #DEDEDE; }
+.userPopout-11hFKo .username-wrapper .activity { color: #DEDEDE; }
 
 .user-settings-locale .select-item .primary { font-size: 15px; color: #AEAEAE !important; }
 
@@ -1387,11 +1387,11 @@ span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$0.0"] {
 
 span[data-reactid=".0.5.$=1$UserSettingsModal.0.0.1.0.$LOCALE.0.1:1.0.1.$1.0"] { color: #CDCDCD; }
 
-.userPopout-4pfA0d .username-wrapper.has-nickname .discriminator, .userPopout-4pfA0d .username-wrapper.has-nickname .username { color: #EAEAEA; }
+.userPopout-11hFKo .username-wrapper.has-nickname .discriminator, .userPopout-11hFKo .username-wrapper.has-nickname .username { color: #EAEAEA; }
 
-.userPopout-4pfA0d .body-3rkFrF .section .label { color: #A7A7A7; }
+.userPopout-11hFKo .body-3ljq11 .section .label { color: #A7A7A7; }
 
-.userPopout-4pfA0d .footer-2J5zqP .update-notice { color: #A0A0A0; margin: 0; }
+.userPopout-11hFKo .footer-2wFs91 .update-notice { color: #A0A0A0; margin: 0; }
 
 .typing strong { font-weight: 700; color: #A5A5A5; }
 
@@ -1526,7 +1526,7 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 #friends .btn, .add-friend-popout .btn, .private-channels .channel.selected .icon-friends { background-color: var(--main-color) !important; }
 
-.userPopout-4pfA0d .body-3rkFrF .notes textarea { color: #B1B1B1; }
+.userPopout-11hFKo .body-3ljq11 .notes textarea { color: #B1B1B1; }
 
 .invite-button { background-color: rgba(0, 0, 0, 0.7); border: 2px solid #000000; }
 
@@ -1974,13 +1974,13 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 .channel-members .member+h2 { margin-top: 15px; }
 
-.userPopout-4pfA0d { background: transparent !important; }
+.userPopout-11hFKo { background: transparent !important; }
 
 .status-invisible, .status-offline { background-color: #999999; }
 
 .avatar-small .status { width: 8px; height: 8px; border-radius: 0px; }
 
-.userPopout-4pfA0d .avatar-1jmnc- .avatarStatusNormal-1OXVjG { border-radius: 1px; border-color: rgba(255, 253, 253, 0.3); width: 18px; height: 18px; }
+.userPopout-11hFKo .avatar-1jmnc- .avatarStatusNormal-1OXVjG { border-radius: 1px; border-color: rgba(255, 253, 253, 0.3); width: 18px; height: 18px; }
 
 .private-channel-recipients-invite .body .scroller {
 	background-color: rgba(5, 36, 74, 0.92);
@@ -2225,7 +2225,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 /*----------quickswitcher ctrl+k----------*/
 .quickswitcher-2NdiGJ {
-    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-color: rgba(0, 0, 0, 0.85) !important;
     box-shadow: 0 2px 50px rgb(0, 0, 0),0 0 0 1px rgba(0, 180, 255, 0.37);
 }
 .quickswitcher-2NdiGJ .input-MwQhcX {
@@ -2235,7 +2235,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .quickswitcher-2NdiGJ .resultFocused-2geRUA {
     background-color: rgba(5, 127, 149, 0.6);
 }
-.keybind-shortcut.dark span {
+.dark-2Ll8iS span {
     border-color: rgba(0, 216, 255, 0.1);
     background-color: rgba(0, 243, 255, 0.25);
 }
@@ -2390,23 +2390,23 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 ---------END CHECKBOXES----------
 -------------------------------*/
 /*User popout modding*/
-.userPopout-4pfA0d .footer-2J5zqP .quick-message {
+.userPopout-11hFKo .footer-2wFs91 .quick-message {
     background: rgba(0,0,0,0.95);
 	margin: 12px 10px;
 	width: 92%;
 }
-.userPopout-4pfA0d .footer-2J5zqP {
+.userPopout-11hFKo .footer-2wFs91 {
     border-top: 0 !important;
     border: 2px #184554 solid;
 }
-.userPopout-4pfA0d .headerDiscriminator-3fLlCR {
+.userPopout-11hFKo .headerDiscriminator-3fLlCR {
     padding-left: 5px;
     font-weight: 700;
 }
-.userPopout-4pfA0d .headerTagNormal-KyD3_J {
+.userPopout-11hFKo .headerTagNormal-KyD3_J {
     color: #c5c5c5;
 }
-.userPopout-4pfA0d .headerName-2N8Pdz {
+.userPopout-11hFKo .headerName-2N8Pdz {
     text-align: center;
 }
 .bodyTitleIconForeground-itKW-t {
@@ -2415,7 +2415,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 .bodyTitleText-hSiL7d {
     color: #a5a5a5;
 }
-.userPopout-4pfA0d .marginBottom20-2Ifj-2 {
+.userPopout-11hFKo .marginBottom20-2Ifj-2 {
     margin-bottom: 10px;
 }
 /*Server invite window*/
@@ -3345,7 +3345,7 @@ span#bd-status:before {
 	color: white !important;
 }
 /*User popout roles scroller*/
-.userPopout-4pfA0d .body-3rkFrF .rolesList-2YHFg5 {
+.userPopout-11hFKo .body-3ljq11 .rolesList-2RhjNd {
     overflow-y: auto;
     max-height: 200px;
     position: relative;
@@ -3651,7 +3651,7 @@ span#bd-status:before {
 }
 /*profile card fixes*/
 /*top background and border*/
-.headerPlaying-2eYqm9 {
+.headerPlaying-2Q7mBy {
     background: rgba(0,0,0,.95);
     border: 2px solid #184554;
     border-bottom: 0!important;
@@ -3716,7 +3716,7 @@ span#bd-status:before {
     color: #fff;
 }
 /*profile card member role background/border*/
-.theme-dark .rolesList-2YHFg5 .member-role {
+.theme-dark .rolesList-2RhjNd .member-role {
     background-color: transparent;
     border-color: var(--main-color);
 }
@@ -3800,12 +3800,10 @@ span#bd-status:before {
     color: #e6e6e6;
 }
 /*profile card message backgorund fix after update 17.01.2018*/
-.quickMessage-318jK- {
-    border: none;
-}
-.theme-dark .quickMessage-28pD5Y {
+.theme-dark .quickMessage-OCo-Q0 {
     background-color: transparent;
 	margin-bottom: 0 !important;
+	border: none;
 }
 /*keybinds hover fix after update 17.01.2018*/
 .card-11ynQk.active-LUb1iN:before, .card-11ynQk:hover:before {
@@ -4061,4 +4059,26 @@ span#bd-status:before {
 }
 .theme-dark #memberCount {
     background: transparent !important;
+}
+/*profile streaming/playing/spotify send friend button*/
+.buttonInvertedPurple-15OGid:hover, .lookInverted-2lPGe7.colorBrand-3PmwCE:hover, .lookInverted-2lPGe7.colorGreen-22At8E:hover {
+    background-color: #3ca374;
+}
+.buttonInvertedPurple-15OGid, .lookInverted-2lPGe7.colorBrand-3PmwCE, .lookInverted-2lPGe7.colorGreen-22At8E {
+    background-color: #43b581;
+    color: #fff;
+}
+/*profile card header spotify*/
+.headerSpotify-26yUf5 {
+    background: rgba(29, 185, 84, 0.85);
+}
+/*server notification/privacy and some other menus "ok" button*/
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+    background-color: #03a6c3;
+}
+.lookFilled-luDKDo.colorBrand-3PmwCE {
+    background-color: var(--main-color);
+}
+.lookFilled-luDKDo.colorBrand-3PmwCE:active {
+    background-color: var(--hover-color);
 }
