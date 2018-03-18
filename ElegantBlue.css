@@ -3861,7 +3861,7 @@ span#bd-status:before {
     border-radius: 10px;
 }
 /*context menu fix after update 17.01.2018*/
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     background: rgba(0, 21, 29, 0.95);
     border: 1px solid var(--hover-color);
 }
@@ -4081,4 +4081,8 @@ span#bd-status:before {
 }
 .lookFilled-luDKDo.colorBrand-3PmwCE:active {
     background-color: var(--hover-color);
+}
+/*devilbro translate plugin background*/
+.popout.popout-bottom-right.no-arrow.no-shadow.popout-googletranslate.DevilBro-modal {
+    background: rgba(0, 0, 0, 0.8);
 }
