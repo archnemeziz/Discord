@@ -3673,7 +3673,7 @@ span#bd-status:before {
     width: 21px;
 }
 /*profile header*/
-.topSectionNormal-2LlRG1, .header-2Lg0Oe, .headerFill-TTyrtz {
+.theme-dark .topSectionNormal-2LlRG1, .header-2Lg0Oe, .headerFill-TTyrtz {
     background-color: rgba(0, 26, 39, 0.9);
 }
 /*profile footer*/
@@ -4085,4 +4085,26 @@ span#bd-status:before {
 /*devilbro translate plugin background*/
 .popout.popout-bottom-right.no-arrow.no-shadow.popout-googletranslate.DevilBro-modal {
     background: rgba(0, 0, 0, 0.8);
+}
+/*server members username font size*/
+.username-MwOsla {
+    font-size: 14px;
+}
+/*playing game - game name color*/
+.activityText-258pdj > strong {
+    color: var(--main-color); 
+}
+/*member list status indicator size and border color*/
+.theme-dark .status-2Devx1 {
+    height: 8px;
+    width: 8px;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+/*memberlist hover color*/
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background-color: rgba(0, 130, 169, 0.35);
+}
+/*member background in list when profile card open*/
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+    background-color: rgba(0, 100, 148, 0.38);
 }
