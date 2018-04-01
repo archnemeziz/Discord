@@ -3674,7 +3674,7 @@ span#bd-status:before {
 }
 /*profile header*/
 .theme-dark .topSectionNormal-2LlRG1, .header-2Lg0Oe, .headerFill-TTyrtz {
-    background-color: rgba(0, 26, 39, 0.9);
+    background-color: rgba(0, 26, 39, 0.9) !important;
 }
 /*profile footer*/
 .theme-dark .body-3_tdh6 {
@@ -4107,4 +4107,8 @@ span#bd-status:before {
 /*member background in list when profile card open*/
 .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
     background-color: rgba(0, 100, 148, 0.38);
+}
+/*remove weird margin on profile card protip*/
+.protip-q743VF {
+    margin-top: 0 !important;
 }
