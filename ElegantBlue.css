@@ -4112,3 +4112,7 @@ span#bd-status:before {
 .protip-q743VF {
     margin-top: 0 !important;
 }
+/*remove member list profile image border*/
+.small-TEeAkX {
+	border: none !important;
+}
