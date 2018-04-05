@@ -4116,3 +4116,7 @@ span#bd-status:before {
 .small-TEeAkX {
 	border: none !important;
 }
+/*server members transparency fix 05.04.2018*/
+.theme-dark .members-1bid1J {
+    background-color: rgba(0, 0, 0, 0.85);
+}
