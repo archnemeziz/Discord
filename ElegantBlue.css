@@ -4120,3 +4120,9 @@ span#bd-status:before {
 .theme-dark .members-1bid1J {
     background-color: rgba(0, 0, 0, 0.85);
 }
+/*server members groups text align and color + bold*/
+.theme-dark .membersGroup-3_dP5E {
+    text-align: center;
+    color: #00aac7;
+	font-weight: 600;
+}
