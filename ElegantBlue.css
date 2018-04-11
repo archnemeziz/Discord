@@ -4059,6 +4059,7 @@ span#bd-status:before {
 }
 .theme-dark #memberCount {
     background: transparent !important;
+	padding: 0 0 0.9vh 0 !important;
 }
 /*profile streaming/playing/spotify send friend button*/
 .buttonInvertedPurple-15OGid:hover, .lookInverted-2lPGe7.colorBrand-3PmwCE:hover, .lookInverted-2lPGe7.colorGreen-22At8E:hover {
@@ -4125,4 +4126,9 @@ span#bd-status:before {
     text-align: center;
     color: #00aac7;
 	font-weight: 600;
+}
+/*member list typing status indicator*/
+.small-TEeAkX .statusTyping-lRly31 {
+    border-radius: 0;
+    width: 26px !important;
 }
