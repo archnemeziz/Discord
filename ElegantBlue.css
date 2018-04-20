@@ -2031,7 +2031,7 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 
 /*----------Search function theming----------*/
 .theme-dark .search-results-wrap {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 .search-results-wrap .scroller-wrap {
     background-color: transparent;
@@ -4183,4 +4183,51 @@ span#bd-status:before {
 }
 .search-result .accessory {
     margin-left: -50px;
+}
+/*pinned messages/mentions background*/
+.theme-dark .messagesPopoutWrap-1VBR-j {
+    background-color: rgba(0, 28, 45, 0.95);
+}
+/*pinned messages/mentions header*/
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
+    background-color: rgba(0, 43, 68, 0.95);
+}
+/*pinned messages/mentions single message background and border*/
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
+    background-color: rgba(0, 0, 0, 0.33);/*rgba(16, 75, 125, 0.2)*/
+    border-color: rgba(0, 118, 222, 0.2);
+}
+/*pinned messages/mentions footer*/
+.theme-dark .messagesPopoutWrap-1VBR-j .footer-dHccYB {
+    background-color: rgba(24, 69, 115, 0.22);
+}
+/*pinned messages/mentions message hover border*/
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
+    border-color: rgba(0, 184, 255, 0.8);
+}
+/*pinned messages/mentions jump to message button background+glow*/
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
+    background-color: transparent;
+    box-shadow: none;
+}
+/*pinned messages/mentions jump button*/
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO {
+    background-color: #00608e;
+}
+/*pinned messages/mentions header all/this server selected underline color*/
+.theme-dark .headerTabBarWrapper-3uOJ6x .tab-bar.TOP .tab-bar-item.selected {
+    border-bottom-color: var(--main-color);
+}
+/*server invite background and border*/
+.theme-dark .wrapper-uAa07y {
+    background: rgba(0, 148, 181, 0.4);
+    border-color: rgba(0, 255, 255, 0.35);
+}
+/*server options dropdown menu*/
+.theme-dark .menu-3BZuDT {
+    background: rgba(0, 52, 72, 0.95);
+}
+/*server options dropdown menu hover*/
+.theme-dark .item-rK1j5B:hover {
+    background-color: rgba(0, 196, 255, 0.15);
 }
