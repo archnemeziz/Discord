@@ -4231,3 +4231,97 @@ span#bd-status:before {
 .theme-dark .item-rK1j5B:hover {
     background-color: rgba(0, 196, 255, 0.15);
 }
+/*server invite modal background*/
+.wrapper-VSYYTS {
+    background: transparent;
+}
+/*server invite modal header background*/
+.form-deprecated .form-header, .form.deprecated .form-header {
+    background-color: rgba(0, 43, 68, 0.95);
+}
+/*/*server invite modal header text*/
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header, .wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz {
+    color: #fff;
+}
+/*server invite modal body background*/
+.form-deprecated .form-inner, .form.deprecated .form-inner {
+    background-color: rgba(0, 73, 101, 0.95);
+}
+/*server invite modal link*/
+.clipboardInputInner-oj8y-S input {
+    background-color: #007eaf;
+}
+.clipboardInputInner-oj8y-S {
+    background: transparent;
+    border: 1px solid rgba(0, 231, 255, 0.65);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    color: #00f1ff;
+}
+/*server invite modal link exire information text color*/
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v {
+    color: #9fa6ad;
+}
+/*server invite modal copy button*/
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
+    background-color: rgba(0, 147, 171, 0.46);
+}
+.clipboardInputInner-oj8y-S button {
+    border-left: 1px solid #006882;
+}
+.clipboardInputInner-oj8y-S button:first-of-type:before {
+    background: linear-gradient(90deg,hsla(0,0%,100%,0),#006882);
+}
+/*server invite modal footer background*/
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
+    background-color: rgba(0, 43, 68, 0.95);
+}
+/*server invite modal settings footer*/
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+    background-color: rgba(0, 43, 68, 0.95);
+}
+/*server invite modal settings dropdown borders*/
+.form-deprecated .Select-control, .form.deprecated .Select-control {
+    border: 1px solid rgba(0, 208, 255, 0.55);
+}
+.form-deprecated .Select.is-disabled .Select-control:hover, .form-deprecated .Select.is-open .Select-control:hover, .form.deprecated .Select.is-disabled .Select-control:hover, .form.deprecated .Select.is-open .Select-control:hover {
+    border-color: var(--main-color);
+}
+.is-open>.Select-control {
+    border-color: var(--main-color);
+}
+.form-deprecated .Select-control:hover, .form.deprecated .Select-control:hover {
+    border-color: rgba(0, 243, 255, 0.9);
+}
+/*server invite modal settings dropdown text*/
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label {
+    color: #fff;
+}
+/*server invite modal settings dropdown options*/
+.form-deprecated .Select-control:hover, .form.deprecated .Select-control:hover {
+    border-color: rgba(0, 243, 255, 0.9);
+}
+.form-deprecated .Select-option, .form.deprecated .Select-option {
+    color: #b5b5b5;
+}
+.Select-option.is-selected {
+    background-color: rgba(0, 173, 255, 0.5);
+}
+.form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused {
+    background: rgba(0, 174, 214, 0.9);
+    color: #fff;
+}
+/*server invite modal settings generate link button*/
+.form-deprecated .btn-primary, .form.deprecated .btn-primary {
+    background-color: var(--main-color);
+}
+.form-deprecated .btn-primary:hover, .form.deprecated .btn-primary:hover {
+    background-color: var(--hover-color);
+}
+.form-deprecated .btn+.btn, .form.deprecated .btn+.btn {
+    margin-top: 15px;
+}
+/*server invite modal settings cancel button underline color*/
+.form-deprecated .btn-default, .form.deprecated .btn-default {
+    border-bottom: 2px solid rgba(249, 249, 249, 0.44);
+}
