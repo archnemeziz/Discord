@@ -2306,38 +2306,38 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 }
 /*-----------new toggles-----------*/
 /*off*/
-.switchEnabled-3CPlLV, .switchDisabled-2OLY_e {
+.switchEnabled-V2WDBB, .switchDisabled-2OLY_e {
     background: rgba(41, 54, 76, 0.5) !important;
     border-radius: 0 10px 10px 0 !important;
     border: 1px solid rgba(0, 255, 255, 0.25) !important;
 }
 /*off hover*/
-.switchEnabled-3CPlLV:hover, .switchDisabled-2OLY_e:hover {
+.switchEnabled-V2WDBB:hover, .switchDisabled-2OLY_e:hover {
     background-color: rgba(0, 241, 255, 0.3) !important;
 }
 /*on*/
-.switchEnabled-3CPlLV.valueChecked-3Bzkbm, .switchDisabled-2OLY_e.valueChecked-3Bzkbm {
+.switchEnabled-V2WDBB.valueChecked-m-4IJZ, .switchDisabled-2OLY_e.valueChecked-m-4IJZ {
     background: rgba(0, 126, 134, 0.4) !important;
     border: 1px solid rgba(0, 243, 255, 0.5) !important;
 }
 /*on hover*/
-.switchEnabled-3CPlLV.valueChecked-3Bzkbm:hover, .switchDisabled-2OLY_e.valueChecked-3Bzkbm:hover {
+.switchEnabled-V2WDBB.valueChecked-m-4IJZ:hover, .switchDisabled-2OLY_e.valueChecked-m-4IJZ:hover {
     background-color: rgba(0, 241, 255, 0.5) !important;
 }
 /*off button*/
-.switchEnabled-3CPlLV:after, .switchDisabled-2OLY_e:after {
+.switchEnabled-V2WDBB:after, .switchDisabled-2OLY_e:after {
     top: -1px !important;
     left: -1px !important;
     background: rgba(0, 194, 255, 0.45) !important;
     border-radius: 0 !important;
 }
 /*on button*/
-.switchEnabled-3CPlLV.valueChecked-3Bzkbm:after, .switchDisabled-2OLY_e.valueChecked-3Bzkbm:after {
+.switchEnabled-V2WDBB.valueChecked-m-4IJZ:after, .switchDisabled-2OLY_e.valueChecked-m-4IJZ:after {
     background-color: rgba(0, 243, 255, 0.7) !important;
     border-radius: 0 8px 8px 0 !important;
 }
 /*hide border in Connections settings*/
-.themeClear-1NqU69.valueUnchecked-XR6AOk.sizeDefault-rZbSBU {
+.themeClear-1NqU69.valueUnchecked-2lU_20.sizeDefault-2YlOZr {
     box-shadow: none;
 }
 /*BD toggles*/
@@ -3370,7 +3370,8 @@ span#bd-status:before {
 .contentHoveredText-2D9B-x, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-gTtYM9:active {
     background-color: rgba(0, 234, 255, 0.15);
 }
-.content-2mSKOj {
+/*selected/hover chat channel background size*/
+.content-20Aix8  {
     margin: 0;
     border-radius: 0;
 }
@@ -3424,7 +3425,7 @@ span#bd-status:before {
     contain: inherit;
 }
 /*create new channel background/changelog*/
-.theme-dark .modal-3HOjGZ {
+.theme-dark .modal-3HD5ck {
     background-color: rgba(0, 22, 37, 0.95);
 }
 /*default settings color*/
@@ -3579,7 +3580,7 @@ span#bd-status:before {
     border-left-color: var(--main-color);
 }
 /*server notification/privacy menu toggle size correction*/
-.modal-2LIEKY .sizeDefault-rZbSBU {
+.modal-3HD5ck .sizeDefault-2YlOZr {
     height: 22px;
     width: 40px;
 }
@@ -3598,7 +3599,7 @@ span#bd-status:before {
     border-color: rgba(0, 255, 255, 0.55);
 }
 /*video call no camera found footer*/
-.theme-dark .footer-XPgXYX {
+.theme-dark .footer-2yfCgX {
     background-color: transparent;
 }
 /*transparency fix after update 27/10/2017*/
@@ -3661,11 +3662,11 @@ span#bd-status:before {
     border: 4px solid #184554;
 }
 /*profile pic mask*/
-.mask-2vyqAW {
+.mask-3OgeRz {
     -webkit-mask: none;
 }
 /*status square*/
-.status-3jUEha {
+.status-oxiHuE {
     border-radius: 0;
 }
 .statusProfile-29OBzn {
@@ -3785,13 +3786,13 @@ span#bd-status:before {
     background: transparent;
 }
 /*server settings menu background fix after update 17.01.2018*/
-.menu-3BZuDT {
+.menu-Sp6bN1 {
     background: rgb(0, 42, 58);
 }
 .separator-1hpa3S {
     border-bottom: 1px solid var(--main-color);
 }
-.item-rK1j5B:hover {
+.item-1GzJrl:hover {
     background-color: rgba(0, 208, 255, 0.3);
     color: #e6e6e6;
 }
@@ -3802,7 +3803,7 @@ span#bd-status:before {
 	border: none;
 }
 /*keybinds hover fix after update 17.01.2018*/
-.card-11ynQk.active-LUb1iN:before, .card-11ynQk:hover:before {
+.card-FDVird.active-nvdKfC:before, .card-FDVird:hover:before {
     background-color: rgba(0, 173, 255, 0.35) !important;
     border-color: #007da2 !important;
 }
@@ -3810,24 +3811,24 @@ span#bd-status:before {
 .Select--single>.Select-control .Select-value, .Select-placeholder {
 	cursor: pointer;
 }
-.theme-dark .select-3JqNgs .is-focused .Select-control {
+.theme-dark .select-2TCrqx .is-focused .Select-control {
     border-color: var(--main-color);
 }
-.theme-dark .select-3JqNgs .Select-menu-outer {
+.theme-dark .select-2TCrqx .Select-menu-outer {
     background-color: rgba(0, 0, 0, 0.79);
     border: 1px solid var(--main-color);
     border-top: none;
 }
-.theme-dark .select-3JqNgs .Select-option.is-selected {
+.theme-dark .select-2TCrqx .Select-option.is-selected {
     background: rgb(0, 63, 82);
 }
-.theme-dark .select-3JqNgs .Select-option.is-focused, .theme-dark .select-3JqNgs .Select-option:hover {
+.theme-dark .select-2TCrqx .Select-option.is-focused, .theme-dark .select-2TCrqx .Select-option:hover {
     background: rgba(0, 196, 255, 0.65);
 }
-.theme-dark .button-1qrA-N {
+.theme-dark .button-mM-y8i {
     background-color: transparent;
 }
-.theme-dark .button-1qrA-N:hover {
+.theme-dark .button-mM-y8i:hover {
     background-color: rgba(0, 161, 255, 0.5);
     box-shadow: 0 0 0 1px rgba(146, 0, 0, 0.5), 0 2px 10px 0 rgba(0,0,0,.2);
 }
@@ -3841,7 +3842,7 @@ span#bd-status:before {
     padding: 1px;
 }
 /*server settings filter dropdown fix after update 17.01.2018*/
-.theme-dark .popoutList-2NT_IY {
+.theme-dark .popoutList-T9CKZQ {
     background: rgba(0, 22, 31, 0.96);
 }
 .flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignCenter-3VxkQP.noWrap-v6g9vO.selectableItem-3PW5_y.selected-3MAwPR {
@@ -3850,10 +3851,10 @@ span#bd-status:before {
 .theme-dark .selectableItem-3PW5_y:hover {
     background-color: rgba(2, 84, 103, 0.5);
 }
-.theme-dark .searchBar-YMJBu9 {
+.theme-dark .searchBar-1MOL6S {
     background-color: rgba(0, 184, 255, 0.15);
 }
-.popoutList-2NT_IY {
+.popoutList-T9CKZQ {
     border-radius: 10px;
 }
 /*context menu fix after update 17.01.2018*/
@@ -3883,13 +3884,13 @@ span#bd-status:before {
     margin-right: 10px;
 }
 /*user is typing fix after update 17.01.2018*/
-.theme-dark .typing-3eiiL_ {
+.theme-dark .typing-2GQL18 {
     background-color: transparent;
 }
-.typing-3eiiL_ {
+.typing-2GQL18 {
     height: 20px;
 }
-.typing-3eiiL_ .ellipsis--nKTEd {
+.typing-2GQL18 .ellipsis-19qdx6 {
     margin-top: 3px;
 }
 /*emoji picker emoji hover color fix after update 17.01.2018*/
@@ -4058,10 +4059,10 @@ span#bd-status:before {
 	padding: 0 0 0.9vh 0 !important;
 }
 /*profile streaming/playing/spotify send friend button*/
-.buttonInvertedPurple-15OGid:hover, .lookInverted-2lPGe7.colorBrand-3PmwCE:hover, .lookInverted-2lPGe7.colorGreen-22At8E:hover {
+.buttonInvertedPurple-15OGid:hover, .lookInverted-2lPGe7.colorBrand-3pXr91:hover, .lookInverted-2lPGe7.colorGreen-22At8E:hover {
     background-color: #3ca374;
 }
-.buttonInvertedPurple-15OGid, .lookInverted-2lPGe7.colorBrand-3PmwCE, .lookInverted-2lPGe7.colorGreen-22At8E {
+.buttonInvertedPurple-15OGid, .lookInverted-2lPGe7.colorBrand-3pXr91, .lookInverted-2lPGe7.colorGreen-22At8E {
     background-color: #43b581;
     color: #fff;
 }
@@ -4070,13 +4071,13 @@ span#bd-status:before {
     background: rgba(29, 185, 84, 0.85);
 }
 /*server notification/privacy and some other menus "ok" button*/
-.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
     background-color: #03a6c3;
 }
-.lookFilled-luDKDo.colorBrand-3PmwCE {
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
     background-color: var(--main-color);
 }
-.lookFilled-luDKDo.colorBrand-3PmwCE:active {
+.lookFilled-1Gx00P.colorBrand-3pXr91:active {
     background-color: var(--hover-color);
 }
 /*devilbro translate plugin background*/
@@ -4084,25 +4085,25 @@ span#bd-status:before {
     background: rgba(0, 0, 0, 0.8);
 }
 /*server members username font size*/
-.username-MwOsla {
+.username-1cB_5E {
     font-size: 14px;
 }
 /*playing game - game name color*/
-.activityText-258pdj > strong {
+.activityText-sLG0UL > strong {
     color: var(--main-color); 
 }
 /*member list status indicator size and border color*/
-.theme-dark .status-2Devx1 {
+.theme-dark .status-2s6iDp {
     height: 8px;
     width: 8px;
     border-color: rgba(0, 0, 0, 0.6);
 }
 /*memberlist hover color*/
-.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
     background-color: rgba(0, 130, 169, 0.35);
 }
 /*member background in list when profile card open*/
-.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
     background-color: rgba(0, 100, 148, 0.38);
 }
 /*remove weird margin on profile card protip*/
@@ -4118,13 +4119,13 @@ span#bd-status:before {
     background-color: rgba(0, 0, 0, 0.85);
 }
 /*server members groups text align and color + bold*/
-.theme-dark .membersGroup-3_dP5E {
+.theme-dark .membersGroup-v9BXpm {
     text-align: center;
     color: #00aac7;
 	font-weight: 600;
 }
 /*member list typing status indicator*/
-.small-TEeAkX .statusTyping-lRly31 {
+.small-5Os1Bb .statusTyping-2ed9jJ {
     border-radius: 0;
     width: 26px !important;
 }
@@ -4220,11 +4221,11 @@ span#bd-status:before {
     border-color: rgba(0, 255, 255, 0.35);
 }
 /*server options dropdown menu*/
-.theme-dark .menu-3BZuDT {
+.theme-dark .menu-Sp6bN1 {
     background: rgba(0, 52, 72, 0.95);
 }
 /*server options dropdown menu hover*/
-.theme-dark .item-rK1j5B:hover {
+.theme-dark .item-1GzJrl:hover {
     background-color: rgba(0, 196, 255, 0.15);
 }
 /*server invite modal background*/
