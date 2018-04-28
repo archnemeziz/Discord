@@ -29,7 +29,7 @@
 
 .userPopout-3XzG_A .headerNormal-T_seeN { background: rgba(0, 0, 0, .95); border: 2px #184554 solid; }
 
-.userPopout-3XzG_A .headerStreaming-lmgoma { background-color: rgba(89, 54, 149, 0.85); border: 2px #184554 solid; }
+.userPopout-3XzG_A .headerStreaming-2FjmGz { background-color: rgba(89, 54, 149, 0.85); border: 2px #184554 solid; }
 
 .userPopout-3XzG_A .body-3iLsc4 { background: rgb(24, 69, 84); padding: 10px 0 10px 10px; border-bottom: 0 !important; }
 
@@ -3652,13 +3652,13 @@ span#bd-status:before {
 }
 /*profile card fixes*/
 /*top background and border*/
-.headerPlaying-2Q7mBy {
+.headerPlaying-j0WQBV {
     background: rgba(0,0,0,.95);
     border: 2px solid #184554;
     border-bottom: 0!important;
 }
 /*image border*/
-.avatar-1BXaQj {
+.avatar-16XVId {
     border: 4px solid #184554;
 }
 /*profile pic mask*/
@@ -4059,15 +4059,15 @@ span#bd-status:before {
 	padding: 0 0 0.9vh 0 !important;
 }
 /*profile streaming/playing/spotify send friend button*/
-.buttonInvertedPurple-15OGid:hover, .lookInverted-2lPGe7.colorBrand-3pXr91:hover, .lookInverted-2lPGe7.colorGreen-22At8E:hover {
+.buttonInvertedPurple-15OGid:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
     background-color: #3ca374;
 }
-.buttonInvertedPurple-15OGid, .lookInverted-2lPGe7.colorBrand-3pXr91, .lookInverted-2lPGe7.colorGreen-22At8E {
+.buttonInvertedPurple-15OGid, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY {
     background-color: #43b581;
     color: #fff;
 }
 /*profile card header spotify*/
-.headerSpotify-26yUf5 {
+.headerSpotify-zpWxgT {
     background: rgba(29, 185, 84, 0.85);
 }
 /*server notification/privacy and some other menus "ok" button*/
@@ -4111,7 +4111,7 @@ span#bd-status:before {
     margin-top: 0 !important;
 }
 /*remove member list profile image border*/
-.small-TEeAkX {
+.small-5Os1Bb {
 	border: none !important;
 }
 /*server members transparency fix 05.04.2018*/
@@ -4351,4 +4351,12 @@ span#bd-status:before {
 /*members transparency*/
 .theme-dark .members-1998pB {
     background-color: rgba(0, 0, 0, 0.85);
+}
+/*profile spotify*/
+.topSectionSpotify-1lI0-P {
+    background: rgba(29, 185, 84, 0.75);
+}
+/*profile streaming*/
+.topSectionStreaming-1Tpf5X {
+    background: rgba(89, 54, 149, 0.75);
 }
