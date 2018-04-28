@@ -3410,7 +3410,7 @@ span#bd-status:before {
     margin: 5px 0 17px;
 }
 .theme-dark .inner-zqa7da {
-    background-color: rgba(0, 211, 255, 0.1);
+    background-color: rgba(0, 26, 31, 0.9);
 }
 /*region choice in priv voice*/
 .ui-quick-select {
@@ -3459,10 +3459,10 @@ span#bd-status:before {
     background-color: var(--main-color) !important;
 }
 /*emoji autocomplete bg*/
-.theme-dark .autocomplete-1TnWNR {
+.theme-dark .autocomplete-1vrmpx {
     background: linear-gradient(rgba(0,54,74,0.95), rgba(0, 26, 31, 0.9));
 }
-.theme-dark .selectorSelected-2M0IGv {
+.theme-dark .selectorSelected-1_M1WV {
     background-color: rgba(0, 0, 0, 0.5);
 }
 /*delete message*/
@@ -3585,7 +3585,7 @@ span#bd-status:before {
     width: 40px;
 }
 /*ping autofill text color with @user in attatchment message*/
-.theme-brand .content-249Pr9 {
+.theme-brand .content-Qb0rXO {
     color: #b1b1b1;
 }
 /*server emoji settings*/
@@ -3919,19 +3919,19 @@ span#bd-status:before {
     color: #fff !important;
 }
 /*file upload window*/
-.uploadModal-2KN6Mm {
+.uploadModal-2ifh8j {
     background-color: rgba(0, 69, 109, 0.75);
     border-radius: 5px;
 }
-.uploadModal-2KN6Mm .footer-4pOKm8 {
+.uploadModal-2ifh8j .footer-3mqk7D {
     background-color: rgba(0, 29, 49, 0.75);
     border-radius: 0 0 5px 5px;
 }
-.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary {
     background-color: var(--main-color) !important;
     color: #fff;
 }
-.uploadModal-2KN6Mm .footer-4pOKm8 .button {
+.uploadModal-2ifh8j .footer-3mqk7D .button {
     margin-left: 5px;
     background-color: var(--hover-color);
 }
@@ -3944,12 +3944,9 @@ span#bd-status:before {
 		opacity: 1;
 	}
 }
-/*emoji autocomplete type area color*/
-.innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerAutocomplete-2qsvzH {
-    background-color: rgba(4, 26, 33, 0.9);
-}
-/*autocomplete are animation*/
-.theme-dark .autocomplete-1TnWNR {
+/*autocomplete*/
+.theme-dark .autocomplete-1vrmpx {
+	/*background-color: rgba(0, 73, 97, 0.9) !important;*/
     animation: opacity .3s;
 }
 /****FRIENDS LIST RESET****/
@@ -4059,10 +4056,10 @@ span#bd-status:before {
 	padding: 0 0 0.9vh 0 !important;
 }
 /*profile streaming/playing/spotify send friend button*/
-.buttonInvertedPurple-15OGid:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+.buttonInvertedPurple-WtBglX:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
     background-color: #3ca374;
 }
-.buttonInvertedPurple-15OGid, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY {
+.buttonInvertedPurple-WtBglX, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY {
     background-color: #43b581;
     color: #fff;
 }
@@ -4359,4 +4356,12 @@ span#bd-status:before {
 /*profile streaming*/
 .topSectionStreaming-1Tpf5X {
     background: rgba(89, 54, 149, 0.75);
+}
+/*autocomplete overflow*/
+.autocomplete-i9yVHs {
+    overflow: auto;
+}
+/*upload modal autocomplete max height*/
+.uploadModal-2ifh8j .autocomplete-1vrmpx {
+    max-height: 47vh;
 }
