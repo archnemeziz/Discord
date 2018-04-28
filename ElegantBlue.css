@@ -2224,18 +2224,18 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     max-width: 100%;
 }
 /*----------quickswitcher ctrl+k----------*/
-.quickswitcher-2NdiGJ {
+.quickswitcher-3JagVE {
     background-color: rgba(0, 0, 0, 0.85) !important;
     box-shadow: 0 2px 50px rgb(0, 0, 0),0 0 0 1px rgba(0, 180, 255, 0.37);
 }
-.quickswitcher-2NdiGJ .input-MwQhcX {
+.quickswitcher-3JagVE .input-2VB9rf {
     background-color: rgba(5, 127, 149, 0.8);
     box-shadow: 0 0px 40px rgb(5, 127, 149),0 0 0 2px rgb(0, 0, 0);
 }
-.quickswitcher-2NdiGJ .resultFocused-2geRUA {
+.quickswitcher-3JagVE .resultFocused-3aIoYe {
     background-color: rgba(5, 127, 149, 0.6);
 }
-.dark-2Ll8iS span {
+.dark-2P8byF span {
     border-color: rgba(0, 216, 255, 0.1);
     background-color: rgba(0, 243, 255, 0.25);
 }
@@ -3618,7 +3618,7 @@ span#bd-status:before {
     background-color: rgba(0, 0, 0, 0.75) !important;
 }
 /*text write box bottom padding change*/
-.channelTextArea-os01xC {
+.channelTextArea-rNsIhG {
     margin: 20px 0 18px;
 }
 /*top bar*/
@@ -4142,8 +4142,9 @@ span#bd-status:before {
     background-color: rgba(0, 231, 255, 0.1);
 }
 /*keyboard shortcut icon transparency*/
-.theme-dark .keybindShortcut-tTramc span {
-    background-color: rgba(0, 208, 255, 0.4);
+.theme-dark .keybindShortcut-1BD6Z1 span {
+	border-color: rgba(0, 216, 255, 0.1);
+    background-color: rgba(0, 243, 255, 0.25);
 }
 /*search filter background*/
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
