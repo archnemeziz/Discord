@@ -3408,7 +3408,7 @@ span#bd-status:before {
 .channel-text-area-default {
     margin: 5px 0 17px;
 }
-.theme-dark .inner-3if5cm {
+.theme-dark .inner-zqa7da {
     background-color: rgba(0, 211, 255, 0.1);
 }
 /*region choice in priv voice*/
@@ -3602,7 +3602,7 @@ span#bd-status:before {
     background-color: transparent;
 }
 /*transparency fix after update 27/10/2017*/
-.channels-3g2vYe {
+.channels-Ie2l6A {
     background-color: rgba(0, 0, 0, 0.85);
 }
 .appMount-14L89u, .container-2OU7Cz, .container-2OU7Cz, .theme-dark .headerBar-cxbhPD, .theme-dark .chat form, .theme-dark .title-qAcLxz {
@@ -3642,7 +3642,7 @@ span#bd-status:before {
     border-radius: 10px;
 }
 /*dm name, search, buttons bar*/
-.theme-dark .title-qAcLxz {
+.theme-dark .title-3qD0b- {
     background-color: rgba(0, 0, 0, 0.75) !important;
 }
 /*channel settings add role min height*/
@@ -4031,12 +4031,12 @@ span#bd-status:before {
 .theme-dark #friends .friends-table .friends-row:hover .username {
     overflow: visible;
 }
-.theme-dark #friends .friends-table .friends-row:hover .discord-tag.nameTag-26T3kW {
+.theme-dark #friends .friends-table .friends-row:hover .discord-tag.nameTag-m8r81H {
     overflow: visible;
     margin-top: -20px;
     transition: .5s;
 }
-.theme-dark #friends .friends-table .friends-row .discord-tag.nameTag-26T3kW {
+.theme-dark #friends .friends-table .friends-row .discord-tag.nameTag-m8r81H {
     transition: .5s;
 }
 .theme-dark #friends .friends-table .friends-row:hover .friends-column.friends-column-status {
@@ -4324,4 +4324,33 @@ span#bd-status:before {
 /*server invite modal settings cancel button underline color*/
 .form-deprecated .btn-default, .form.deprecated .btn-default {
     border-bottom: 2px solid rgba(249, 249, 249, 0.44);
+}
+/*******28.04.2018 huge class reroll fixes*******/
+/*background transparency(lower layers)*/
+.container-2lgZY8 {
+    background-color: transparent;
+}
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background: transparent;
+}
+/*plugin update notice*/
+.notice {
+    text-align: center;
+	background-color: rgba(0, 228, 251, 0.7);
+}
+/*bottom left username area*/
+.container-2Thooq {
+	background-color: transparent;
+}
+/*friends headerbar*/
+.theme-dark .headerBar-UHpsPw {
+	background: transparent;
+}
+/*channels transparency*/
+.container-PNkimc {
+    background-color: transparent;
+}
+/*members transparency*/
+.theme-dark .members-1998pB {
+    background-color: rgba(0, 0, 0, 0.85);
 }
