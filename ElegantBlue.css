@@ -2217,9 +2217,9 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     color: var(--main-color);
 }
 /*----------NSFW channel warning background----------*/
-.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyCenter-29N31w.alignCenter-3VxkQP.noWrap-v6g9vO.nsfw-1APjPl {
-    background-color: rgba(0, 0, 0, 0.75);
-} 
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyCenter-3D2jYp.alignStretch-DpGPf3.noWrap-3jynv6.theme-dark {
+    background-color: rgba(0, 0, 0, 0.85);
+}
 .nsfw-1APjPl {
     max-width: 100%;
 }
@@ -3682,8 +3682,8 @@ span#bd-status:before {
     background-color: rgba(0, 16, 23, 0.9);
 }
 /*profile background when playing*/
-.topSectionPlaying-3jAH9b {
-    background: transparent;
+.topSectionPlaying-1J5E4n {
+    background: rgba(0, 26, 39, 0.9);
 }
 /*profile info tabs*/
 .tab-bar.TOP .tab-bar-item.selected, .tabBarItem-1b8RUP {
@@ -3722,7 +3722,7 @@ span#bd-status:before {
     border-color: var(--main-color);
 }
 /*audit log/emoji log/web hook profile pic border*/
-.avatar-U5vyrM, .xsmall-2rXiD4, .large-3yh-62 {
+.xsmall-3afG_L, .large-3ChYtB {
     border-width: 2px;
 }
 /*server settings selected menu*/
@@ -4214,7 +4214,7 @@ span#bd-status:before {
     border-bottom-color: var(--main-color);
 }
 /*server invite background and border*/
-.theme-dark .wrapper-uAa07y {
+.theme-dark .wrapper-35wsBm {
     background: rgba(0, 148, 181, 0.4);
     border-color: rgba(0, 255, 255, 0.35);
 }
@@ -4227,7 +4227,7 @@ span#bd-status:before {
     background-color: rgba(0, 196, 255, 0.15);
 }
 /*server invite modal background*/
-.wrapper-VSYYTS {
+.wrapper-O5i5-0 {
     background: transparent;
 }
 /*server invite modal header background*/
@@ -4235,7 +4235,7 @@ span#bd-status:before {
     background-color: rgba(0, 43, 68, 0.95);
 }
 /*/*server invite modal header text*/
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header, .wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz {
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-header header, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .blurb-zsamaY {
     color: #fff;
 }
 /*server invite modal body background*/
@@ -4243,36 +4243,36 @@ span#bd-status:before {
     background-color: rgba(0, 73, 101, 0.95);
 }
 /*server invite modal link*/
-.clipboardInputInner-oj8y-S input {
+.clipboardInputInner-1EXMA3 input {
     background-color: #007eaf;
 }
-.clipboardInputInner-oj8y-S {
+.clipboardInputInner-1EXMA3 {
     background: transparent;
     border: 1px solid rgba(0, 231, 255, 0.65);
 }
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     color: #00f1ff;
 }
 /*server invite modal link exire information text color*/
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v {
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .expireText-34b09Y {
     color: #9fa6ad;
 }
 /*server invite modal copy button*/
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .copy-3nFbq8 {
     background-color: rgba(0, 147, 171, 0.46);
 }
-.clipboardInputInner-oj8y-S button {
+.clipboardInputInner-1EXMA3 button {
     border-left: 1px solid #006882;
 }
-.clipboardInputInner-oj8y-S button:first-of-type:before {
+.clipboardInputInner-1EXMA3 button:first-of-type:before {
     background: linear-gradient(90deg,hsla(0,0%,100%,0),#006882);
 }
 /*server invite modal footer background*/
-.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions {
     background-color: rgba(0, 43, 68, 0.95);
 }
 /*server invite modal settings footer*/
-.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+.wrapper-O5i5-0 .instantInviteModalAdvanced-3qJETM .form-actions {
     background-color: rgba(0, 43, 68, 0.95);
 }
 /*server invite modal settings dropdown borders*/
@@ -4305,6 +4305,10 @@ span#bd-status:before {
 .form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused {
     background: rgba(0, 174, 214, 0.9);
     color: #fff;
+}
+/*server invite modal settings dropdown option background*/
+.Select-option {
+    background-color: transparent;
 }
 /*server invite modal settings generate link button*/
 .form-deprecated .btn-primary, .form.deprecated .btn-primary {
