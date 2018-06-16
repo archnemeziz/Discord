@@ -4369,3 +4369,12 @@ span#bd-status:before {
 .uploadModal-2ifh8j .autocomplete-1vrmpx {
     max-height: 47vh;
 }
+/*fixed a misplaced button in overlay settings*/
+.button-34kXw5 {
+    width: 128px !important;
+}
+/*guild image size*/
+.iconSizeLarge-161qtT {
+    height: 40px;
+    width: 40px;
+}
