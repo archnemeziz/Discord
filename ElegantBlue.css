@@ -4040,6 +4040,17 @@ span#bd-status:before {
 .theme-dark #friends .friends-table .friends-row:hover .friends-column.friends-column-guilds {
     margin: 0;
 }
+/*shared guilds zoom on friend hover*/
+.friends-row:hover .iconSizeSmall-3aWgx9 {
+    border-radius: 0;
+    border: 2px solid var(--main-color);
+    height: 70px;
+    width: 70px;
+    transition: .5s;
+}
+.iconSizeSmall-3aWgx9 {
+    transition: .5s;
+}
 /*friends list column transitions*/
 #friends .friends-table .friends-row .friends-column+.friends-column {
     transition: margin .5s;
