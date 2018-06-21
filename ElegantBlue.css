@@ -2021,14 +2021,22 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     background-size: cover !important; 
     transition: all .9s ease;
 }
-.message-group .avatar-large:hover { 
-    width: 100px; 
-    height: 100px; 
-    border-radius: 0; 
+/*avatar hover in chat zoom retarded rework cause of recent discord update*/
+/*avatar image border*/
+.wrapper-2F3Zv8.large-3ChYtB.avatar-large.da-wrapper.da-large:hover .avatar-large {
     border: 2px solid rgba(5,127,149,0.3);
+}
+/*avatar image and it's parent resize*/
+.wrapper-2F3Zv8.large-3ChYtB.avatar-large.da-wrapper.da-large:hover .avatar-large, .wrapper-2F3Zv8.large-3ChYtB.avatar-large.da-wrapper.da-large:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
     opacity: 1;
 }
-
+/*avatar image parent right margin*/
+.wrapper-2F3Zv8.large-3ChYtB.avatar-large.da-wrapper.da-large:hover {
+    margin-right: 25px;
+}
 /*----------Search function theming----------*/
 .theme-dark .search-results-wrap {
     background-color: rgba(0, 0, 0, 0.85);
