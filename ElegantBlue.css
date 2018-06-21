@@ -304,7 +304,7 @@ ld-channels ul .channel-voice-states li.speaking .avatar-small { background-colo
 
 #user-profile-modal footer button { color: var(--main-color); }
 
-.avatar-large { width: 40px; height: 40px; background-size: 40px 40px !important; left: 8px; }
+.avatar-large { width: 40px; height: 40px; background-size: 40px 40px !important; left: 4px; }
 
 .channel-textarea { margin: 5px 0 17px; }
 
