@@ -4384,7 +4384,7 @@ span#bd-status:before {
     width: 128px !important;
 }
 /*guild image size*/
-.iconSizeLarge-161qtT {
+.guilds-wrapper .guilds .guild .avatar-small, .iconSizeLarge-161qtT {
     height: 40px;
     width: 40px;
 }
