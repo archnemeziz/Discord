@@ -4458,3 +4458,37 @@ span#bd-status:before {
 .news-2GDtLJ {
     background-color: rgba(0, 184, 255, 0.15);
 }
+/*game info modal*/
+.theme-dark .gamePreview-9weYR2 {
+    background-color: rgba(0, 45, 72, 0.9);
+}
+/*game info modal body footer*/
+.theme-dark .body-1SVoBw {
+    background-color: rgb(0, 24, 39);
+}
+/*game info body header*/
+.info-P9dFwH, .news-2KwXHF {
+    background-color: transparent;
+}
+/*message options context menu*/
+.theme-dark .container-1rPqdX {
+    background: rgba(0, 154, 189, 0.38);
+}
+/*@everyone warning*/
+.theme-dark .everyonePopout-nEbJY3 {
+    background-color: rgba(66, 49, 0, 0.95);
+    animation: input-pulse 2s infinite;
+    border: 2px solid rgba(0, 184, 255, 0.31);
+}
+/*rtc connection header*/
+.popout-3sVMXz header {
+    background-color: rgba(0, 81, 128, 0.9);
+}
+/*rtc connection body*/
+.popout-3sVMXz section {
+    background-color: hsla(194, 97%, 13%, 0.93);
+}
+/*rtc connection tip/menu pointing arrow*/
+.popoutTopRight-3BzFIE section:after, .popoutTop-3uu9vG section:after {
+    border-top-color: #002e3c;
+}
