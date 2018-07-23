@@ -4492,3 +4492,7 @@ span#bd-status:before {
 .popoutTopRight-3BzFIE section:after, .popoutTop-3uu9vG section:after {
     border-top-color: #002e3c;
 }
+/*weird appearing corner on guild below notification resolved*/
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: transparent;
+}
