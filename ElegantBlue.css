@@ -570,8 +570,6 @@ textarea { background: transparent !important; }
 
 .message-group.compact .emoji.jumboable { width: 18px; height: 18px; }
 
-.emoji { margin: 0 0 0 0 !important; }
-
 .emotewrapper { vertical-align: -0.6em; }
 
 .message-group.compact .message { margin: 2px; }
@@ -4495,4 +4493,21 @@ span#bd-status:before {
 /*weird appearing corner on guild below notification resolved*/
 .guilds-wrapper .guilds .guild .guild-inner {
     background: transparent;
+}
+/*getting tired of this shit tbh*/
+.containerCompact-3V0ioj {
+    padding: 2px 0;
+}
+.large-3ChYtB:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    opacity: 1;
+}
+.large-3ChYtB {
+    background-size: cover !important;
+    transition: all .9s ease;
+}
+code {
+    background: black !important;
 }
