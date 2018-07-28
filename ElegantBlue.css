@@ -2030,12 +2030,17 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
     height: 100px;
     border-radius: 0;
     opacity: 1;
+	z-index: 1 !important;
 }
 /*avatar image parent right margin*/
 .wrapper-2F3Zv8.large-3ChYtB.avatar-large.da-wrapper.da-large:hover {
     margin-right: 25px;
 }
 /*----------Search function theming----------*/
+/*search area width*/
+.search-results-wrap {
+    width: 550px;
+}
 .theme-dark .search-results-wrap {
     background-color: rgba(0, 0, 0, 0.85);
 }
@@ -4188,8 +4193,11 @@ span#bd-status:before {
     margin-left: -50px;
 }
 /*pinned messages/mentions background*/
-.theme-dark .messagesPopoutWrap-1MQ1bW {
+.theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .messagesPopoutWrap-1MQ1bW {
     background-color: rgba(0, 28, 45, 0.95);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G {
+    border-color: rgba(0, 136, 255, 0.28);
 }
 /*pinned messages/mentions header*/
 .theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX {
@@ -4205,16 +4213,25 @@ span#bd-status:before {
     background-color: rgba(24, 69, 115, 0.22);
 }
 /*pinned messages/mentions message hover border*/
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
     border-color: rgba(0, 184, 255, 0.8);
 }
+.messageGroupWrapper-o-Zw7G {
+    transition: 0.2s all ease;
+}
 /*pinned messages/mentions jump to message button background+glow*/
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     background-color: transparent;
     box-shadow: none;
 }
+/*pinned messages/mentions load more button at bottom*/
+.theme-dark .hasMoreButton-1MELpI {
+    background: #315cb3;
+    border-color: rgba(0, 184, 255, 0.32);
+    color: #bccbff;
+}
 /*pinned messages/mentions jump button*/
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_ {
     background-color: #00608e;
 }
 /*pinned messages/mentions header all/this server selected underline color*/
@@ -4480,15 +4497,15 @@ span#bd-status:before {
 }
 /*rtc connection header*/
 .popout-3sVMXz header {
-    background-color: rgba(0, 81, 128, 0.9);
+    background-color: rgba(0, 81, 128, 0.9) !important;
 }
 /*rtc connection body*/
 .popout-3sVMXz section {
-    background-color: hsla(194, 97%, 13%, 0.93);
+    background-color: hsla(194, 97%, 13%, 0.93) !important;
 }
 /*rtc connection tip/menu pointing arrow*/
 .popoutTopRight-3BzFIE section:after, .popoutTop-3uu9vG section:after {
-    border-top-color: #002e3c;
+    border-top-color: #002e3c !important;
 }
 /*weird appearing corner on guild below notification resolved*/
 .guilds-wrapper .guilds .guild .guild-inner {
@@ -4498,16 +4515,67 @@ span#bd-status:before {
 .containerCompact-3V0ioj {
     padding: 2px 0;
 }
-.large-3ChYtB:hover {
-    width: 100px;
-    height: 100px;
-    border-radius: 0;
+/*code block background and border*/
+.theme-dark .markup-2BOw-j pre {
+    background: transparent;
+    border-color: rgba(0, 139, 220, 0.4);
+}
+.theme-dark .hljs {
+    background: rgba(0, 89, 132, 0.12) !important;
+}
+code {
+    background: rgba(255, 255, 255, 0.12) !important;
+}
+/*message hover highlight*/
+.content-3dzVd8:hover {
+    background-color: rgba(193, 193, 193, 0.20);
+    border-radius: 6px;
+    transition: .3s all ease;
+}
+.content-3dzVd8 {
+    background-color: transparent;
+    transition: .3s all ease;
+}
+/*message divider line position*/
+.containerCompact-3V0ioj .divider-32i8lo {
+    margin: -1px 20px -4px;
+}
+/*message divider line color*/
+.theme-dark .dividerEnabled-2TTlcf {
+    border-bottom-color: hsla(197, 100%, 25%, 0.14);
+}
+/*username colon*/
+strong.username-_4ZSMR.da-username:after {
+    content: ":";
+    margin-top: 6px;
+}
+/*pinned messages/mentions width*/
+.messagesPopoutWrap-1MQ1bW {
+	width: 550px;
+}
+/*message context menu*/
+.theme-dark .container-3cGP6G {
+    background: rgba(0, 148, 253, 0.29);
+}
+/*emoji size*/
+.emoji {
+    margin: -.1em -0.2em -.2em .1em;
+}
+.emoji.jumboable {
+    height: 2rem;
+    width: 2rem;
+}
+/*user hover effect*/
+.wrapper-2F3Zv8 .large-3ChYtB:hover {
     opacity: 1;
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
+    margin-left: -17px;
+    margin-top: -12px;
+    border: 2px solid var(--main-color);
 }
 .large-3ChYtB {
     background-size: cover !important;
-    transition: all .9s ease;
-}
-code {
-    background: black !important;
+    transition: all .4s ease;
 }
