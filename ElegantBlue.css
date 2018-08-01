@@ -4632,3 +4632,7 @@ strong.username-_4ZSMR.da-username:after {
 .friendsOnline-_wi_fM {
     margin-left: -5px;
 }
+/*guilds background transparency*/
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: transparent;
+}
