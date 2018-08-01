@@ -4636,3 +4636,10 @@ strong.username-_4ZSMR.da-username:after {
 .theme-dark .guildsWrapper-5TJh6A {
     background-color: transparent;
 }
+/*user dm and guild separator*/
+.theme-dark .guildSeparator-1X4GQ1:after {
+    background: rgba(0, 173, 255, 0.39);
+}
+.guildSeparator-1X4GQ1:after {
+    left: 0;
+}
