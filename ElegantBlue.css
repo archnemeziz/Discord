@@ -3630,7 +3630,7 @@ span#bd-status:before {
 }
 /*text write box bottom padding change*/
 .channelTextArea-rNsIhG {
-    margin: 20px 0 18px;
+    margin: 0 0 18px;
 }
 /*top bar*/
 .typeWindows-1za-n7 {
@@ -4642,4 +4642,57 @@ strong.username-_4ZSMR.da-username:after {
 }
 .guildSeparator-1X4GQ1:after {
     left: 0;
+}
+/*chat area background fix*/
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+    background-color: rgba(0, 0, 0, 0.62);
+}
+.da-messagesWrapper {
+    background-color: transparent !important;
+}
+/*date divider center line transparency*/
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
+    background: transparent;
+}
+/*date divider background color*/
+.theme-dark .divider-3gKybi:before {
+    background-color: #2b2d31;
+}
+/*date divider background height*/
+.divider-3gKybi:before {
+    height: 30px;
+    border-radius: 3px;
+}
+/*date divider height*/
+.divider-3gKybi {
+    height: 30px;
+}
+/*date divider text background color*/
+.theme-dark .divider-3gKybi span {
+    background-color: #2b2d31;
+}
+/*date divider font*/
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
+    color: rgb(206, 206, 206);
+}
+.divider-3gKybi>span {
+    font-size: 13px;
+}
+/*new messages divider*/
+.divider-3gKybi.dividerRed-MKoLlr {
+    padding: 1px 0;
+}
+.dividerRed-MKoLlr:before {
+    background-color: rgb(123, 46, 46) !important;
+}
+.dividerRed-MKoLlr span {
+    background-color: transparent !important;
+}
+/*jump to present bar*/
+.theme-dark .jumpToPresentBar-9P20AM {
+    border-radius: 5px;
+    background-color: rgba(0, 88, 121, 0.95);
+}
+.theme-dark .jumpToPresentBar-9P20AM:hover {
+    background-color: rgba(5, 115, 156, 0.95) !important;
 }
