@@ -3356,7 +3356,7 @@ span#bd-status:before {
     background-color: transparent;
 }
 .container-2Thooq {
-    background: transparent;
+    background: transparent !important;
 }
 .contentSelectedText-3wUhMi {
     background-color: transparent;
@@ -4389,7 +4389,7 @@ span#bd-status:before {
     width: 128px !important;
 }
 /*guild image size*/
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild .avatar-small, .iconSizeLarge-161qtT {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild .avatar-small, .iconSizeLarge-161qtT, .theme-dark .guildsError-3cFMtY {
     height: 40px;
     width: 40px;
 }
@@ -4602,6 +4602,10 @@ strong.username-_4ZSMR.da-username:after {
 .noIcon-1a_FrS.iconSizeLarge-161qtT {
     line-height: 40px;
 }
+/*error guild line height*/
+.theme-dark .guildsError-3cFMtY {
+    line-height: 36px;
+}
 /*guild hover removed border radius changing*/
 .guild-1EfMGQ .guildInner-3DSoA4, .guild-1EfMGQ .guildInner-3DSoA4:hover {
     border-radius: 25px !important;
@@ -4697,6 +4701,10 @@ strong.username-_4ZSMR.da-username:after {
     border-radius: 5px;
     margin: 0 2px 0 0;
     animation: mentionpulse 3s infinite;
+}
+/*mention left margin fix*/
+.da-isMentioned .da-headerCompact {
+    margin-left: -6px;
 }
 /*compact mode message text right margin(for react and option button)*/
 .isCompact-1hsne1 {
