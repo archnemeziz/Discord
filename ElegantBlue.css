@@ -1530,16 +1530,6 @@ div#bd-pub-button:hover { background-color: #43B581 !important; transition: .3s 
 
 .invite-button:hover { border-color: #057f95 !important; }
 
-@-webkit-keyframes mentionpulse { 0% { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0.4); }
-  70% { box-shadow: 0 0 5px 5px rgba(26, 178, 250, 0); }
-  to { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0); } }
-
-@keyframes mentionpulse { 0% { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0.4); }
-  70% { box-shadow: 0 0 5px 5px rgba(26, 178, 250, 0); }
-  to { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0); } }
-
-.message-group .mentioned .message-text { -webkit-animation: mentionpulse 2s infinite; animation: mentionpulse 2s infinite; }
-
 .account .btn-settings:after { background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_settings_white_24px.svg) !important; zoom: 1.2; }
 
 .account .btn-settings:hover:after { opacity: 0.6; }
@@ -3135,18 +3125,18 @@ body,.channel-members .member .member-username { -webkit-font-smoothing: antiali
 	order:9999999999;
 }
 /*message options(reaction, delete) right side hover*/
-.message-group .btn-reaction {
-    margin-right: 20px;
+.da-container .btn-reaction {
+    margin-right: 22px;
 }
-.message-group .btn-option, .message-group .btn-reaction, .message-group .btn-option:hover {
+.da-container .btn-option, .da-container .btn-reaction, .da-container .btn-option:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     transition: transform 0.3s linear;
     right: 0;
 }
-.message-group .btn-option:hover {
-    transform: translateY(-50%) rotate(90deg) !important;
+.da-container .btn-option:hover {
+    transform: translateY(-50%) rotate(90deg);
 }
 .message-text {
     position: relative;
@@ -4529,8 +4519,9 @@ code {
 /*message hover highlight*/
 .content-3dzVd8:hover {
     background-color: rgba(193, 193, 193, 0.20);
-    border-radius: 6px;
+    border-radius: 4px;
     transition: .3s all ease;
+    margin-right: 2px;
 }
 .content-3dzVd8 {
     background-color: transparent;
@@ -4695,4 +4686,42 @@ strong.username-_4ZSMR.da-username:after {
 }
 .theme-dark .jumpToPresentBar-9P20AM:hover {
     background-color: rgba(5, 115, 156, 0.95) !important;
+}
+/*mentions*/
+@keyframes mentionpulse { 0% { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0.4); }
+  55% { box-shadow: 0 0 5px 5px rgba(26, 178, 250, 0); }
+  to { box-shadow: 0 0 0 0 rgba(26, 178, 250, 0); }
+}
+.da-isMentioned {
+    border-left: 3px solid rgba(26, 178, 250, 0.64) !important;
+    border-radius: 5px;
+    margin: 0 2px 0 0;
+    animation: mentionpulse 3s infinite;
+}
+/*compact mode message text right margin(for react and option button)*/
+.isCompact-1hsne1 {
+    margin-right: 4ch;
+}
+.content-3dzVd8 {
+    padding-right: 0;
+}
+/*reaction button and options vertical align*/
+.content-3dzVd8 {
+    position: relative;
+}
+.buttonContainer-KtQ8wc {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    margin: auto;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+}
+/*message options button rotate on hover and open*/
+.button-3Jq0g9 {
+    transition: .5s all;
+}
+.button-3Jq0g9.popout-open, .button-3Jq0g9:hover {
+    transform: rotate(90deg);
 }
