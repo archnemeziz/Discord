@@ -4116,7 +4116,7 @@ span#bd-status:before {
 }
 /*server members transparency fix 05.04.2018*/
 .theme-dark .members-1998pB {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: transparent;
 }
 /*server members groups text align and color + bold*/
 .theme-dark .membersGroup-v9BXpm {
@@ -4364,10 +4364,6 @@ span#bd-status:before {
 .container-PNkimc {
     background-color: transparent;
 }
-/*members transparency*/
-.theme-dark .members-1998pB {
-    background-color: rgba(0, 0, 0, 0.85);
-}
 /*profile spotify*/
 .topSectionSpotify-1lI0-P {
     background: rgba(29, 185, 84, 0.75);
@@ -4402,7 +4398,7 @@ span#bd-status:before {
     background-color: rgba(0, 0, 0, 0.85);
 }
 /*main news article linear gradient background*/
-.article-FleDq5 {
+.article-3kb3qm {
     background-color: rgb(19, 44, 62);
 }
 /*games secondary news on top right linear gradient background*/
@@ -4520,12 +4516,12 @@ code {
 .content-3dzVd8:hover {
     background-color: rgba(193, 193, 193, 0.20);
     border-radius: 4px;
-    transition: .3s all ease;
+    transition: .3s background-color ease;
     margin-right: 2px;
 }
 .content-3dzVd8 {
     background-color: transparent;
-    transition: .3s all ease;
+    transition: .3s background-color ease;
 }
 /*message divider line position*/
 .containerCompact-3V0ioj .divider-32i8lo {
@@ -4579,7 +4575,7 @@ strong.username-_4ZSMR.da-username:after {
 }
 /*emoji height on line*/
 .emoji {
-    margin-bottom: -6px;
+    margin-bottom: 0px;
 }
 .isCompact-1hsne1 .emoji.jumboable {
     margin-bottom: -2px;
@@ -4725,6 +4721,10 @@ strong.username-_4ZSMR.da-username:after {
     right: -2px;
     top: 0;
     bottom: 0;
+}
+/*reaction and edit buttons pm alignment*/
+.chat-3bRxxu .buttonContainer-KtQ8wc, .da-chat .buttonContainer-KtQ8wc {
+    right: 30px;
 }
 /*message options button rotate on hover and open*/
 .button-3Jq0g9 {
