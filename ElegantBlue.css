@@ -4545,9 +4545,9 @@ strong.username-_4ZSMR.da-username:after {
     background: rgba(0, 148, 253, 0.29);
 }
 /*emoji size*/
-.emoji {
+/*.emoji {
     margin: -.1em -0.2em -.2em .1em;
-}
+}*/
 .emoji.jumboable {
     height: 2rem;
     width: 2rem;
@@ -4574,9 +4574,9 @@ strong.username-_4ZSMR.da-username:after {
     background: transparent;
 }
 /*emoji height on line*/
-.emoji {
+/*.emoji {
     margin-bottom: 0px;
-}
+}*/
 .isCompact-1hsne1 .emoji.jumboable {
     margin-bottom: -2px;
 }
@@ -4732,4 +4732,19 @@ strong.username-_4ZSMR.da-username:after {
 }
 .button-3Jq0g9.popout-open, .button-3Jq0g9:hover {
     transform: rotate(90deg);
+}
+/*messages left and right side margins and padding cozy+compact*/
+.isMentionedCozy-3isp7y:after {
+    background: none;
+    border-left: none;
+}
+.da-containerCompact {
+    margin-left: 10px;
+    margin-right: 3px;
+}
+.da-timestampCompactBase {
+    margin-left: -18px;
+}
+.containerCozy-jafyvG {
+    padding-right: 3px;
 }
