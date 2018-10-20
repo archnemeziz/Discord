@@ -4766,7 +4766,7 @@ strong.username-_4ZSMR.da-username:after {
     background-color: rgba(0, 138, 191, 0.42);
 }
 /*discord main page hover channel*/
-.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
+.channel-2QD9_O:hover a {
     background-color: rgba(0, 173, 255, 0.63);
 }
 /*games library background*/
