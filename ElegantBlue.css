@@ -4514,7 +4514,7 @@ code {
 }
 /*message hover highlight*/
 .content-3dzVd8:hover {
-    background-color: rgba(193, 193, 193, 0.20);
+    background-color: rgba(193, 193, 193, 0.11);
     border-radius: 4px;
     transition: .3s background-color ease;
 }
@@ -4815,4 +4815,29 @@ strong.username-_4ZSMR.da-username:after {
 /*BD options select*/
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     background-color: var(--main-color);
+}
+/*day change message divider*/
+.theme-dark .divider-3gKybi span {
+    background-color: rgba(0, 196, 255, 0.2);
+    border-radius: 10px;
+}
+/*message divider text*/
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+    border-color: transparent;
+}
+.dividerContent-2L12VI {
+    font-weight: 600;
+}
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+    color: rgba(153, 170, 181, 0.65);
+}
+/*new messages divider*/
+.dividerRed-MKoLlr span {
+    background-color: rgba(255, 0, 0, 0.18) !important;
+}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
+    color: rgba(255, 255, 255, 0.8);
+}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+    border-color: transparent;
 }
