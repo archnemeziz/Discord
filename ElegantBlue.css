@@ -4747,3 +4747,72 @@ strong.username-_4ZSMR.da-username:after {
 .containerCozy-jafyvG {
     padding-right: 3px;
 }
+/*Store background*/
+.theme-dark .applicationStore-1pNvnv {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+/*Store main featured game*/
+@media (min-width: 849px) {
+	.theme-dark .itemBackground-1jfD8p:before {
+		background: radial-gradient(ellipse at top,rgba(54,57,63,0),rgb(0, 0, 0)),linear-gradient(90deg,#000000 0,rgba(54,57,63,0) 40%,rgba(54, 57, 63, 0) 60%,#000000),linear-gradient(0deg,rgb(2, 2, 2) 0,rgba(54,57,63,0) 25%);
+	}
+}
+/*Store search field*/
+.theme-dark .browseSearchInput-Jt8kg0 {
+    background-color: hsla(202, 100%, 50%, 0.09);
+}
+/*discord main page selected channel*/
+.channel-2QD9_O.selected-1HYmZZ a {
+    background-color: rgba(0, 138, 191, 0.42);
+}
+/*discord main page hover channel*/
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
+    background-color: rgba(0, 173, 255, 0.63);
+}
+/*games library background*/
+.theme-dark .gameLibrary-TTDw4Y {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+/*games library header*/
+.theme-dark .header-39GIC8 {
+    background-color: transparent;
+}
+/*store game tile background*/
+.theme-dark .tileWrapper-2khh-w {
+    background-color: rgba(0, 65, 103, 0.8);
+}
+/*store game tile hover background*/
+.theme-dark .tileWrapper-2khh-w:hover {
+    background-color: rgba(0, 149, 255, 0.48);
+}
+.theme-dark .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,rgba(0, 65, 103, 0.8));
+}
+/*settings background*/
+.theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy {
+    background: transparent;
+}
+.theme-dark .standardSidebarView-3F1I7i {
+    background: rgba(0, 0, 0, 0.7);
+}
+/*billing - transaction history*/
+.theme-dark .paymentPane-3bwJ6A {
+    background-color: rgba(2, 51, 66, 0.9);
+}
+.theme-dark .paginator-166-09 {
+    background: transparent;
+}
+.theme-dark .payment-xT17Mq {
+    background-color: transparent;
+}
+.theme-dark .expandedInfo-3kfShd {
+    background-color: rgba(0, 0, 0, 0.41);
+}
+/*transaction hover*/
+.theme-dark .hoverablePayment-Yc6mK7:hover {
+    background-color: rgba(0, 90, 117, 0.78);
+}
+/*BD options select*/
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+    background-color: var(--main-color);
+}
