@@ -4655,7 +4655,7 @@ strong.username-_4ZSMR.da-username:after {
 }
 /*date divider height*/
 .divider-3gKybi {
-    height: 30px;
+    height: 18px;
 }
 /*date divider text background color*/
 .theme-dark .divider-3gKybi span {
@@ -4840,4 +4840,28 @@ strong.username-_4ZSMR.da-username:after {
 }
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
     border-color: transparent;
+}
+/*search dropdown rework*/
+.theme-dark .elevationBorderHigh-2WYJ09 {
+    box-shadow: 0 0 0 1px rgba(0, 173, 255, 0.6), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+.theme-dark .container-3ayLPN {
+    background-color: rgba(0, 30, 51, 0.9);
+}
+.theme-dark .option-96V44q:after {
+    background: linear-gradient(270deg,rgba(54,57,63,0),rgba(0, 208, 255, 0.08) 80%);
+}
+.option-96V44q:after {
+    width: 300px;
+    border-radius: 3px;
+}
+.option-96V44q {
+    margin: 2px 10px;
+}
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+    background: linear-gradient(90deg,rgba(35,38,42,0),rgba(0, 109, 255, 0.15) 50%);
+}
+/*no channel bg*/
+.theme-dark .noChannel-Z1DQK7 {
+    background: rgba(0, 0, 0, 0.85);
 }
