@@ -1,3 +1,5 @@
+This theme is no longer being updated as of January 2019
+
 #Previews for Elegant Blue
 
 #server selector
