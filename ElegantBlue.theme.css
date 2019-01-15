@@ -11,6 +11,6 @@ IMPORTANT: CHANGE TO DARK APPEARANCE IN DISCORD SETTINGS!
  --main-color: #057F95;
  --hover-color: #045B6B;
 }
-.app, canvas, .callout-backdrop {
+.da-app, .app-2rEoOp, canvas, .callout-backdrop {
 	background-image: url("https://i.imgur.com/Mu4SNn6.jpg") !important;
 }
