@@ -4842,6 +4842,18 @@ strong.username-_4ZSMR.da-username:after {
     background: rgba(0, 0, 0, 0.85);
 }
 
+/*Discord search menu*/
+
+#app-mount .searchResultsWrap-2DKFzt, #app-mount .searchHeader-1l-wpR, #app-mount .searchResult-3pzFAB:after, #app-mount .searchResult-3pzFAB:before, #app-mount .channelSeparator-1X1FuH .channelName-1QajIf, #app-mount .emojiPicker-3m1S-j .searchBar-2_Yu-C {
+	background: transparent;
+	background-image: none;
+}
+
+#app-mount .searchResult-3pzFAB .hit-NLlWXA {
+	background: hsla(220, 8%, 23%, 0.2);
+	box-shadow: none;
+}
+
 /*Removes background on guild add*/
 
 #app-mount .guildsAdd-21_IdK { background: transparent; }
@@ -4873,16 +4885,6 @@ strong.username-_4ZSMR.da-username:after {
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq[aria-label="symbols"], .da-emojiPicker .da-categories .da-item[aria-label="symbols"] { background-image: url(https://discordapp.com/assets/83095e6af6c7cf33669e3ab169296867.svg); }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq[aria-label="flags"], .da-emojiPicker .da-categories .da-item[aria-label="flags"] { background-image: url(https://discordapp.com/assets/ccda5cf0a64abbd18fdb9f914b55292e.svg); }
-
-#app-mount .searchResultsWrap-2DKFzt, #app-mount .searchHeader-1l-wpR, #app-mount .searchResult-3pzFAB:after, #app-mount .searchResult-3pzFAB:before, #app-mount .channelSeparator-1X1FuH .channelName-1QajIf, #app-mount .emojiPicker-3m1S-j .searchBar-2_Yu-C {
-	background: transparent;
-	background-image: none;
-}
-
-#app-mount .searchResult-3pzFAB .hit-NLlWXA {
-	background: hsla(220, 8%, 23%, 0.2);
-	box-shadow: none;
-}
 
 #app-mount.bda-dark .emoji-picker .category, #app-mount.bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
 	background-color: rgba(3,92,119,.85) !important;
